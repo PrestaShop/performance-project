@@ -3,7 +3,6 @@ FROM prestashop/prestashop:1.7
 COPY entrypoint.sh /tmp/
 COPY install.sh /tmp/
 COPY run.sh /tmp/
-RUN rm -rf /var/www/html/install/fixtures/fashion/*
 COPY --chown=www-data:www-data fixtures-10 /var/www/html/install/fixtures/fixtures-10
 COPY --chown=www-data:www-data fixtures-1000 /var/www/html/install/fixtures/fixtures-1000
 COPY --chown=www-data:www-data settings.inc.php /var/www/html/config/

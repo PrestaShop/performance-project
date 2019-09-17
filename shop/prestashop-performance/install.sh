@@ -5,6 +5,7 @@ set -e
 ########################
 # copy fixture folder if required
 if [ "${FIXTURE_FOLDER}" != "" ]; then
+    rm -rf /var/www/html/install/fixtures/fashion/*
 	  cp -R /var/www/html/install/fixtures/"${FIXTURE_FOLDER}"/* /var/www/html/install/fixtures/fashion/
 fi
 
