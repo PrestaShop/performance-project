@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_cart>
+  <fields class="Cart">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delivery_option"/>
+    <field name="id_address_delivery" relation="address"/>
+    <field name="id_address_invoice"/>
+    <field name="id_currency"/>
+    <field name="id_customer" relation="customer"/>
+    <field name="id_guest" relation="guest"/>
+    <field name="secure_key"/>
+    <field name="recyclable"/>
+    <field name="gift"/>
+    <field name="allow_separated_package"/>
+    <field name="id_shop"/>
+    <field name="id_shop_group"/>
+  </fields>
+  <entities>
+    <cart id_customer="" id_carrier="ipsam" id_address_delivery="fugiat" id_guest="1" id="1" secure_key="387103cec67434a80c80698709a59b65" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="My_carrier" id_address_delivery="aliquam" id_guest="10" id="2" secure_key="78a6d25d5fa4bd11d382c4645ef14406" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="iure" id_address_delivery="aut" id_guest="3" id="3" secure_key="bb7585ae6f69d9df26e1d3097e4ca9ce" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_guest="" id_carrier="iure" id_address_delivery="numquam" id_customer="2" id="4" secure_key="1e00f5c42fe1c4dbac345b44494d260e" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="iure" id_address_delivery="fugiat" id_guest="3" id="5" secure_key="bbcda9c26c7e74c3f3661f4b9eb1eb46" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="carrier_1" id_address_delivery="aliquam" id_guest="5" id="6" secure_key="41c75905fcc6d7ccba2b45a63d6f4aeb" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="My_carrier" id_address_delivery="consequuntur" id_guest="3" id="7" secure_key="9a09995d9a3899385a129007af2eee24" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_guest="" id_carrier="et" id_address_delivery="consequuntur" id_customer="4" id="8" secure_key="f43a53bd5f23c4d3632d862dac633ac3" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_guest="" id_carrier="et" id_address_delivery="aut" id_customer="5" id="9" secure_key="9106555b24f78568abe7f41653f6dde8" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+    <cart id_customer="" id_carrier="My_carrier" id_address_delivery="aliquam" id_guest="2" id="10" secure_key="680bf1695ebc355a8916636a604e2e34" delivery_option="a:1:{i:3;s:2:&quot;2,&quot;;}" id_currency="1" recyclable="0" gift="0" allow_separated_package="0" id_shop="1" id_shop_group="1"/>
+  </entities>
+</entity_cart>

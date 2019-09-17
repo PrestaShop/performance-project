@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_image>
+  <fields primary="id_product" class="Image" image="p">
+    <field name="id_product" relation="product"/>
+    <field name="cover"/>
+  </fields>
+  <entities>
+    <image id_product="1" id="1" cover="1"/>
+    <image id_product="1" id="2" cover="1"/>
+    <image id_product="2" id="3" cover="1"/>
+    <image id_product="2" id="4" cover="1"/>
+    <image id_product="3" id="5" cover="1"/>
+    <image id_product="3" id="6" cover="1"/>
+    <image id_product="4" id="7" cover="1"/>
+    <image id_product="4" id="8" cover="1"/>
+    <image id_product="5" id="9" cover="1"/>
+    <image id_product="5" id="10" cover="1"/>
+    <image id_product="6" id="11" cover="1"/>
+    <image id_product="6" id="12" cover="1"/>
+    <image id_product="7" id="13" cover="1"/>
+    <image id_product="7" id="14" cover="1"/>
+    <image id_product="8" id="15" cover="1"/>
+    <image id_product="8" id="16" cover="1"/>
+    <image id_product="9" id="17" cover="1"/>
+    <image id_product="9" id="18" cover="1"/>
+    <image id_product="10" id="19" cover="1"/>
+    <image id_product="10" id="20" cover="1"/>
+  </entities>
+</entity_image>

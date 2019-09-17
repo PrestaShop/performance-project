@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_product_attribute>
+  <fields class="Combination">
+    <field name="id_product" relation="product"/>
+    <field name="reference"/>
+    <field name="supplier_reference"/>
+    <field name="ean13"/>
+    <field name="upc"/>
+    <field name="wholesale_price"/>
+    <field name="price"/>
+    <field name="ecotax"/>
+    <field name="quantity"/>
+    <field name="weight"/>
+    <field name="unit_price_impact"/>
+    <field name="default_on"/>
+    <field name="minimal_quantity"/>
+    <field name="available_date"/>
+  </fields>
+  <entities>
+    <product_attribute id_product="1" id="1" ean13="3818383190105" upc="09915244" quantity="20" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="1" id="2" ean13="7717387931935" upc="04287582" quantity="20" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="1" id="3" ean13="5788249267518" upc="48544603" quantity="47" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="1" id="4" ean13="6948107396203" upc="29792214" quantity="64" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="1" id="5" ean13="0628931612675" upc="65790298" quantity="51" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="2" id="6" ean13="3304331560613" upc="40985107" quantity="28" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="2" id="7" ean13="5129034157971" upc="76492938" quantity="94" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="2" id="8" ean13="0312524678482" upc="39310132" quantity="3" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="2" id="9" ean13="5176130984161" upc="26665047" quantity="92" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="2" id="10" ean13="9959168970285" upc="63707151" quantity="35" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="3" id="11" ean13="4512769343718" upc="44834364" quantity="74" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="3" id="12" ean13="5116961876792" upc="50822225" quantity="42" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="3" id="13" ean13="9765862160194" upc="27912324" quantity="94" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="3" id="14" ean13="9549232158956" upc="40737553" quantity="43" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="3" id="15" ean13="2191493572667" upc="62400183" quantity="22" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="4" id="16" ean13="7973069178924" upc="43267743" quantity="65" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="4" id="17" ean13="4454902474975" upc="00463126" quantity="89" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="4" id="18" ean13="1362010654437" upc="22324528" quantity="97" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="4" id="19" ean13="4670953281045" upc="36539796" quantity="71" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="4" id="20" ean13="8108659920365" upc="88405698" quantity="75" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="5" id="21" ean13="2524903923443" upc="26553115" quantity="58" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="5" id="22" ean13="9593000433738" upc="19344621" quantity="71" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="5" id="23" ean13="7489242976619" upc="59403913" quantity="36" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="5" id="24" ean13="7788599928631" upc="06888893" quantity="63" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="5" id="25" ean13="9023329282835" upc="64155944" quantity="71" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="6" id="26" ean13="2295161619729" upc="57430249" quantity="22" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="6" id="27" ean13="9977235891448" upc="92125506" quantity="11" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="6" id="28" ean13="1659644532324" upc="73002857" quantity="73" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="6" id="29" ean13="6244517049921" upc="23862968" quantity="72" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="6" id="30" ean13="7656481191848" upc="83255649" quantity="89" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="7" id="31" ean13="0312909147435" upc="51094393" quantity="88" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="7" id="32" ean13="3375092923108" upc="15607744" quantity="34" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="7" id="33" ean13="7843829300998" upc="58726075" quantity="41" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="7" id="34" ean13="5943589948798" upc="14787980" quantity="10" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="7" id="35" ean13="2768976880870" upc="45206542" quantity="14" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="8" id="36" ean13="2547059391270" upc="51803865" quantity="83" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="8" id="37" ean13="0620674242744" upc="11533221" quantity="56" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="8" id="38" ean13="8871606620303" upc="04472803" quantity="45" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="8" id="39" ean13="2055243796041" upc="46302816" quantity="20" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="8" id="40" ean13="1985956065169" upc="68046354" quantity="75" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="9" id="41" ean13="4972128797932" upc="65134139" quantity="6" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="9" id="42" ean13="4799011391066" upc="03310366" quantity="15" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="9" id="43" ean13="1003209531633" upc="88457000" quantity="2" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="9" id="44" ean13="8317475953192" upc="49523324" quantity="71" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="9" id="45" ean13="7355424178457" upc="62068628" quantity="67" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="10" id="46" ean13="6757160799285" upc="81018727" quantity="80" default_on="1" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="10" id="47" ean13="1132598135846" upc="30226531" quantity="33" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="10" id="48" ean13="9752000801620" upc="09873513" quantity="28" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="10" id="49" ean13="4763998843726" upc="48096515" quantity="30" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+    <product_attribute id_product="10" id="50" ean13="9734665850960" upc="35272656" quantity="12" default_on="" reference="" supplier_reference="" wholesale_price="0" price="0" ecotax="0" weight="0" unit_price_impact="0" minimal_quantity="1" available_date="0000-00-00"/>
+  </entities>
+</entity_product_attribute>

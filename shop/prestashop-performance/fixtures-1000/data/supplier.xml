@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_supplier>
+  <fields id="name" class="Supplier" image="su">
+    <field name="name"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <supplier id="quaerat minus" name="quaerat minus" active="1"/>
+    <supplier id="quod incidunt" name="quod incidunt" active="1"/>
+    <supplier id="deleniti dicta" name="deleniti dicta" active="1"/>
+    <supplier id="facere velit" name="facere velit" active="0"/>
+    <supplier id="earum odit" name="earum odit" active="1"/>
+    <supplier id="ratione necessitatibus" name="ratione necessitatibus" active="1"/>
+    <supplier id="autem quaerat" name="autem quaerat" active="1"/>
+    <supplier id="explicabo non" name="explicabo non" active="1"/>
+    <supplier id="enim non" name="enim non" active="1"/>
+    <supplier id="ut facere" name="ut facere" active="1"/>
+  </entities>
+</entity_supplier>

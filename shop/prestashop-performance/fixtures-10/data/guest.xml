@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_guest>
+  <fields class="Guest">
+    <field name="id_operating_system" relation="operating_system"/>
+    <field name="id_web_browser" relation="web_browser"/>
+    <field name="id_customer" relation="customer"/>
+    <field name="javascript"/>
+    <field name="screen_resolution_x"/>
+    <field name="screen_resolution_y"/>
+    <field name="screen_color"/>
+    <field name="sun_java"/>
+    <field name="adobe_flash"/>
+    <field name="adobe_director"/>
+    <field name="apple_quicktime"/>
+    <field name="real_player"/>
+    <field name="windows_media"/>
+    <field name="accept_language"/>
+  </fields>
+  <entities>
+    <guest id_operating_system="Windows_7" id_web_browser="IE_11" id_customer="9" id="1" javascript="0" apple_quicktime="1" real_player="1" windows_media="1" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Android" id_web_browser="IE_9" id_customer="9" id="2" javascript="0" apple_quicktime="1" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_10" id_web_browser="IE_11" id_customer="9" id="3" javascript="1" apple_quicktime="0" real_player="0" windows_media="1" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_8_1" id_web_browser="IE_10" id_customer="9" id="4" javascript="0" apple_quicktime="0" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Linux" id_web_browser="Safari_ipad" id_customer="9" id="5" javascript="0" apple_quicktime="1" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_8_1" id_web_browser="Opera" id_customer="9" id="6" javascript="0" apple_quicktime="1" real_player="1" windows_media="1" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_8" id_web_browser="Firefox" id_customer="9" id="7" javascript="1" apple_quicktime="1" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_8" id_web_browser="IE_7" id_customer="9" id="8" javascript="0" apple_quicktime="1" real_player="1" windows_media="1" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Android" id_web_browser="IE_11" id_customer="9" id="9" javascript="1" apple_quicktime="1" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+    <guest id_operating_system="Windows_10" id_web_browser="IE_10" id_customer="9" id="10" javascript="0" apple_quicktime="0" real_player="1" windows_media="0" screen_resolution_x="0" screen_resolution_y="0" screen_color="0" sun_java="0" adobe_flash="0" adobe_director="0" accept_language=""/>
+  </entities>
+</entity_guest>

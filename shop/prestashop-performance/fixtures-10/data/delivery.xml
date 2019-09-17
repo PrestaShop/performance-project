@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_delivery>
+  <fields class="Delivery">
+    <field name="id_shop"/>
+    <field name="id_shop_group"/>
+    <field name="id_carrier" relation="carrier"/>
+    <field name="id_range_price" relation="range_price"/>
+    <field name="id_range_weight" relation="range_weight"/>
+    <field name="id_zone" relation="zone"/>
+    <field name="price"/>
+  </fields>
+  <entities>
+    <delivery id_carrier="iure" id_range_price="8" id_range_weight="3" id_zone="North_America" id="1" price="16" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="et" id_range_price="4" id_range_weight="5" id_zone="Oceania" id="2" price="68" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="ipsam" id_range_price="9" id_range_weight="9" id_zone="Africa" id="3" price="16" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="ipsam" id_range_price="1" id_range_weight="5" id_zone="South_America" id="4" price="87" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="1" id_range_weight="7" id_zone="Europe_out_E_U" id="5" price="60" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="ipsam" id_range_price="6" id_range_weight="1" id_zone="Oceania" id="6" price="43" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="et" id_range_price="9" id_range_weight="4" id_zone="South_America" id="7" price="67" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="6" id_range_weight="5" id_zone="Europe_out_E_U" id="8" price="23" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="iure" id_range_price="4" id_range_weight="5" id_zone="Europe" id="9" price="22" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="5" id_range_weight="7" id_zone="South_America" id="10" price="85" id_shop="" id_shop_group=""/>
+  </entities>
+</entity_delivery>

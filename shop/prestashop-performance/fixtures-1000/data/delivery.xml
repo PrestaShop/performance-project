@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_delivery>
+  <fields class="Delivery">
+    <field name="id_shop"/>
+    <field name="id_shop_group"/>
+    <field name="id_carrier" relation="carrier"/>
+    <field name="id_range_price" relation="range_price"/>
+    <field name="id_range_weight" relation="range_weight"/>
+    <field name="id_zone" relation="zone"/>
+    <field name="price"/>
+  </fields>
+  <entities>
+    <delivery id_carrier="My_carrier" id_range_price="84" id_range_weight="13" id_zone="Africa" id="1" price="49" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="80" id_range_weight="14" id_zone="Asia" id="2" price="47" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="88" id_range_weight="15" id_zone="North_America" id="3" price="75" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="85" id_range_weight="23" id_zone="Oceania" id="4" price="74" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="90" id_range_weight="27" id_zone="South_America" id="5" price="98" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="57" id_range_weight="30" id_zone="South_America" id="6" price="7" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="44" id_range_weight="30" id_zone="North_America" id="7" price="90" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="88" id_range_weight="33" id_zone="Asia" id="8" price="86" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="26" id_range_weight="35" id_zone="South_America" id="9" price="86" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="59" id_range_weight="36" id_zone="Central_America_Antilla" id="10" price="38" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="74" id_range_weight="45" id_zone="Asia" id="11" price="10" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="36" id_range_weight="63" id_zone="North_America" id="12" price="27" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="18" id_range_weight="64" id_zone="Central_America_Antilla" id="13" price="22" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="85" id_range_weight="77" id_zone="Europe_out_E_U" id="14" price="20" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="22" id_range_weight="77" id_zone="Europe_out_E_U" id="15" price="24" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="38" id_range_weight="79" id_zone="Central_America_Antilla" id="16" price="70" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="72" id_range_weight="83" id_zone="Europe_out_E_U" id="17" price="36" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="31" id_range_weight="87" id_zone="South_America" id="18" price="69" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="10" id_range_weight="92" id_zone="Africa" id="19" price="48" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="13" id_range_weight="94" id_zone="Europe" id="20" price="19" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="23" id_range_weight="94" id_zone="Central_America_Antilla" id="21" price="83" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="35" id_range_weight="98" id_zone="Europe_out_E_U" id="22" price="72" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="8" id_range_weight="3" id_zone="Central_America_Antilla" id="23" price="50" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="3" id_range_weight="3" id_zone="North_America" id="24" price="13" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="54" id_range_weight="6" id_zone="Europe_out_E_U" id="25" price="20" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="94" id_range_weight="6" id_zone="South_America" id="26" price="3" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="61" id_range_weight="8" id_zone="Asia" id="27" price="93" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="31" id_range_weight="14" id_zone="Central_America_Antilla" id="28" price="79" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="6" id_range_weight="15" id_zone="Central_America_Antilla" id="29" price="39" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="90" id_range_weight="21" id_zone="Asia" id="30" price="6" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="26" id_range_weight="22" id_zone="Asia" id="31" price="33" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="9" id_range_weight="27" id_zone="Europe" id="32" price="30" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="32" id_range_weight="28" id_zone="Oceania" id="33" price="90" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="20" id_range_weight="28" id_zone="Oceania" id="34" price="49" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="54" id_range_weight="30" id_zone="South_America" id="35" price="26" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="25" id_range_weight="31" id_zone="South_America" id="36" price="9" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="100" id_range_weight="36" id_zone="South_America" id="37" price="30" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="57" id_range_weight="45" id_zone="Oceania" id="38" price="43" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="22" id_range_weight="63" id_zone="Asia" id="39" price="11" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="40" id_range_weight="65" id_zone="Europe" id="40" price="54" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="61" id_range_weight="77" id_zone="South_America" id="41" price="52" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="90" id_range_weight="81" id_zone="Europe" id="42" price="29" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="56" id_range_weight="94" id_zone="Europe_out_E_U" id="43" price="49" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="12" id_range_weight="98" id_zone="Oceania" id="44" price="2" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="79" id_range_weight="100" id_zone="Oceania" id="45" price="25" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="98" id_range_weight="1" id_zone="South_America" id="46" price="99" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="46" id_range_weight="4" id_zone="South_America" id="47" price="56" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="85" id_range_weight="8" id_zone="Europe" id="48" price="85" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="79" id_range_weight="8" id_zone="Africa" id="49" price="26" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="66" id_range_weight="14" id_zone="Europe" id="50" price="87" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="38" id_range_weight="15" id_zone="South_America" id="51" price="56" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="51" id_range_weight="18" id_zone="Central_America_Antilla" id="52" price="98" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="84" id_range_weight="21" id_zone="South_America" id="53" price="6" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="69" id_range_weight="22" id_zone="Africa" id="54" price="50" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="88" id_range_weight="24" id_zone="Central_America_Antilla" id="55" price="96" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="25" id_range_weight="29" id_zone="Asia" id="56" price="84" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="40" id_range_weight="33" id_zone="North_America" id="57" price="69" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="50" id_range_weight="36" id_zone="North_America" id="58" price="30" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="51" id_range_weight="45" id_zone="Central_America_Antilla" id="59" price="41" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="12" id_range_weight="48" id_zone="North_America" id="60" price="54" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="6" id_range_weight="52" id_zone="Europe" id="61" price="80" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="87" id_range_weight="63" id_zone="Europe_out_E_U" id="62" price="96" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="8" id_range_weight="65" id_zone="Oceania" id="63" price="92" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="20" id_range_weight="77" id_zone="Asia" id="64" price="5" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="69" id_range_weight="78" id_zone="North_America" id="65" price="59" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="19" id_range_weight="78" id_zone="Central_America_Antilla" id="66" price="99" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="18" id_range_weight="81" id_zone="Central_America_Antilla" id="67" price="92" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="83" id_range_weight="81" id_zone="Central_America_Antilla" id="68" price="41" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="54" id_range_weight="83" id_zone="Europe_out_E_U" id="69" price="65" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="79" id_range_weight="85" id_zone="Asia" id="70" price="19" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="61" id_range_weight="85" id_zone="Central_America_Antilla" id="71" price="81" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="41" id_range_weight="87" id_zone="Africa" id="72" price="83" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="11" id_range_weight="88" id_zone="Oceania" id="73" price="20" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="84" id_range_weight="90" id_zone="Oceania" id="74" price="92" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="6" id_range_weight="94" id_zone="Europe_out_E_U" id="75" price="50" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="99" id_range_weight="98" id_zone="Africa" id="76" price="23" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="40" id_range_weight="3" id_zone="Europe_out_E_U" id="77" price="69" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="23" id_range_weight="3" id_zone="North_America" id="78" price="96" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="19" id_range_weight="6" id_zone="North_America" id="79" price="41" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="1" id_range_weight="6" id_zone="Europe" id="80" price="83" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="11" id_range_weight="6" id_zone="South_America" id="81" price="38" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="34" id_range_weight="14" id_zone="Europe" id="82" price="39" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="93" id_range_weight="23" id_zone="Europe" id="83" price="22" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="34" id_range_weight="29" id_zone="Oceania" id="84" price="57" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="74" id_range_weight="30" id_zone="Europe" id="85" price="55" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="My_carrier" id_range_price="21" id_range_weight="31" id_zone="Central_America_Antilla" id="86" price="85" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="65" id_range_weight="33" id_zone="Africa" id="87" price="95" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="34" id_range_weight="34" id_zone="Africa" id="88" price="58" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="carrier_1" id_range_price="12" id_range_weight="34" id_zone="Europe_out_E_U" id="89" price="74" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="23" id_range_weight="37" id_zone="North_America" id="90" price="73" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="30" id_range_weight="44" id_zone="Europe" id="91" price="49" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="33" id_range_weight="44" id_zone="Europe_out_E_U" id="92" price="45" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="29" id_range_weight="48" id_zone="Africa" id="93" price="37" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="79" id_range_weight="63" id_zone="North_America" id="94" price="71" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="12" id_range_weight="66" id_zone="Asia" id="95" price="76" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="esse" id_range_price="59" id_range_weight="75" id_zone="North_America" id="96" price="86" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="2" id_range_weight="78" id_zone="South_America" id="97" price="16" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="10" id_range_weight="80" id_zone="Europe" id="98" price="12" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="voluptas" id_range_price="73" id_range_weight="87" id_zone="Europe_out_E_U" id="99" price="29" id_shop="" id_shop_group=""/>
+    <delivery id_carrier="aut" id_range_price="53" id_range_weight="90" id_zone="North_America" id="100" price="18" id_shop="" id_shop_group=""/>
+  </entities>
+</entity_delivery>

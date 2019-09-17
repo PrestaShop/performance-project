@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_store>
+  <fields id="name" class="Store" image="st">
+    <field name="id_country" relation="country"/>
+    <field name="id_state" relation="state"/>
+    <field name="city"/>
+    <field name="postcode"/>
+    <field name="latitude"/>
+    <field name="longitude"/>
+    <field name="phone"/>
+    <field name="fax"/>
+    <field name="email"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <store id_country="BZ" id_state="ID-LA" id="a" city="Letellier" postcode="85665" latitude="-15.205649" longitude="99.637087" email="isaac77@guillet.org" phone="" fax="" active="1"/>
+    <store id_country="TD" id_state="MS" id="commodi" city="Rodrigues" postcode="76000" latitude="-36.034637" longitude="-151.076511" email="qpruvost@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="IT" id_state="B" id="quis" city="Lefort-les-Bains" postcode="48 693" latitude="-85.794526" longitude="108.665052" email="frederic.jacob@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="KI" id_state="AU-TAS" id="ex" city="Thomas-sur-Ferrand" postcode="18067" latitude="-1.406413" longitude="104.71267" email="gblin@yahoo.fr" phone="" fax="" active="1"/>
+    <store id_country="IO" id_state="BZ" id="saepe" city="Lefebvreboeuf" postcode="88148" latitude="36.173889" longitude="-166.618348" email="francois49@noos.fr" phone="" fax="" active="1"/>
+    <store id_country="AM" id_state="E" id="quibusdam" city="Durand-sur-Pires" postcode="31880" latitude="-16.574031" longitude="4.701248" email="denise94@texier.fr" phone="" fax="" active="1"/>
+    <store id_country="MN" id_state="Y" id="reprehenderit" city="RaymondBourg" postcode="43 185" latitude="28.826895" longitude="112.132098" email="sduhamel@benard.com" phone="" fax="" active="1"/>
+    <store id_country="MN" id_state="ID-GO" id="quia" city="Baron-sur-Mer" postcode="43172" latitude="19.366719" longitude="-173.962418" email="ines.lemaire@ifrance.com" phone="" fax="" active="1"/>
+    <store id_country="WF" id_state="OAX" id="aliquid" city="Leconte-sur-Mer" postcode="18 900" latitude="39.256038" longitude="-169.610383" email="chauveau.henriette@tiscali.fr" phone="" fax="" active="1"/>
+    <store id_country="PS" id_state="PT" id="veniam" city="Jeandan" postcode="50085" latitude="-38.00506" longitude="-112.014569" email="xvaillant@live.com" phone="" fax="" active="1"/>
+    <store id_country="NA" id_state="JP-20" id="voluptas" city="Guichard" postcode="46 845" latitude="-30.971034" longitude="118.950019" email="anais.benoit@garnier.org" phone="" fax="" active="1"/>
+    <store id_country="RW" id_state="TA" id="quo" city="Chauveau" postcode="89309" latitude="-9.910371" longitude="-51.606479" email="tristan97@sfr.fr" phone="" fax="" active="1"/>
+    <store id_country="SD" id_state="CH" id="dolorum" city="Pons-sur-Bernier" postcode="94712" latitude="20.909252" longitude="29.549018" email="frederic.gautier@ifrance.com" phone="" fax="" active="1"/>
+    <store id_country="IO" id_state="T" id="corporis" city="Schneider" postcode="47070" latitude="45.125224" longitude="4.845127" email="jboulanger@bouygtel.fr" phone="" fax="" active="1"/>
+    <store id_country="VG" id_state="JP-19" id="nemo" city="Joly-la-Forêt" postcode="22 519" latitude="14.349894" longitude="-178.225957" email="ulegall@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="MU" id_state="TN" id="ut" city="Le GallVille" postcode="83 914" latitude="53.900639" longitude="45.490936" email="renee80@maury.com" phone="" fax="" active="1"/>
+    <store id_country="JM" id_state="JP-16" id="fugiat" city="Blot" postcode="73 633" latitude="27.767588" longitude="38.25337" email="alix.chauveau@guyon.com" phone="" fax="" active="1"/>
+    <store id_country="SG" id_state="CR" id="soluta" city="Vasseur" postcode="89 538" latitude="-43.267838" longitude="-155.146297" email="henri.marchal@sfr.fr" phone="" fax="" active="1"/>
+    <store id_country="GP" id_state="BZ" id="minus" city="Guillet" postcode="02581" latitude="1.730058" longitude="-43.065372" email="yfernandez@arnaud.org" phone="" fax="" active="1"/>
+    <store id_country="NC" id_state="Y" id="deleniti" city="Herve-les-Bains" postcode="24 627" latitude="36.322129" longitude="-36.143905" email="gmorvan@lacombe.com" phone="" fax="" active="1"/>
+    <store id_country="BH" id_state="WY" id="enim" city="Hoareauboeuf" postcode="03 868" latitude="27.908362" longitude="-146.483365" email="roger.roy@boulanger.com" phone="" fax="" active="1"/>
+    <store id_country="NE" id_state="JP-18" id="nihil" city="Meunier" postcode="09558" latitude="-67.440649" longitude="49.879061" email="iperrier@leclercq.fr" phone="" fax="" active="1"/>
+    <store id_country="SD" id_state="X" id="quos" city="Masse-sur-Mer" postcode="86452" latitude="32.398208" longitude="155.874147" email="clement.olivier@delannoy.net" phone="" fax="" active="1"/>
+    <store id_country="MK" id_state="E" id="autem" city="Mercier" postcode="20625" latitude="24.27356" longitude="-137.954368" email="victor.legoff@joseph.fr" phone="" fax="" active="1"/>
+    <store id_country="TT" id_state="OAX" id="recusandae" city="Masson" postcode="59 959" latitude="-3.800341" longitude="12.320975" email="ehuet@brun.com" phone="" fax="" active="1"/>
+    <store id_country="VG" id_state="PE" id="assumenda" city="RaynaudVille" postcode="56 632" latitude="20.117083" longitude="-124.068077" email="adrien18@free.fr" phone="" fax="" active="1"/>
+    <store id_country="CL" id_state="C" id="nam" city="Martin-sur-Mer" postcode="64 438" latitude="-83.035448" longitude="107.117915" email="lbouchet@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="NZ" id_state="JP-45" id="non" city="Pereira" postcode="26 784" latitude="44.198691" longitude="-127.335146" email="lucy.godard@albert.com" phone="" fax="" active="1"/>
+    <store id_country="CZ" id_state="PA_1" id="voluptatem" city="Dufour-sur-Julien" postcode="11355" latitude="8.139518" longitude="131.816292" email="mboucher@durand.net" phone="" fax="" active="1"/>
+    <store id_country="SD" id_state="EN" id="distinctio" city="Lefort" postcode="58002" latitude="-61.057734" longitude="48.782913" email="normand.rene@pottier.org" phone="" fax="" active="1"/>
+    <store id_country="DK" id_state="S" id="rerum" city="Leger" postcode="05790" latitude="-36.974488" longitude="83.028726" email="pierre.alphonse@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="LI" id_state="JP-20" id="porro" city="Cohennec" postcode="37751" latitude="30.572592" longitude="-137.889618" email="patricia26@descamps.com" phone="" fax="" active="1"/>
+    <store id_country="HU" id_state="BR" id="odio" city="Georges" postcode="53 779" latitude="-41.677394" longitude="166.974747" email="kaubry@guillet.org" phone="" fax="" active="1"/>
+    <store id_country="LR" id_state="S" id="sint" city="Bonnindan" postcode="15247" latitude="-74.860462" longitude="-97.517332" email="rene.mace@allard.fr" phone="" fax="" active="1"/>
+    <store id_country="KR" id_state="RA" id="voluptatibus" city="Renault" postcode="13892" latitude="-38.415437" longitude="49.003093" email="mathilde.riou@toussaint.net" phone="" fax="" active="1"/>
+    <store id_country="AM" id_state="JP-13" id="labore" city="Brun" postcode="22 339" latitude="45.41673" longitude="-115.171" email="noel.marion@wanadoo.fr" phone="" fax="" active="1"/>
+    <store id_country="MH" id_state="D" id="dolores" city="Mathieu-sur-Mer" postcode="41771" latitude="27.261135" longitude="58.872485" email="lpereira@yahoo.fr" phone="" fax="" active="1"/>
+    <store id_country="IL" id_state="MIC" id="eos" city="Fernandesboeuf" postcode="92 266" latitude="-25.849364" longitude="101.837021" email="imonnier@dumas.fr" phone="" fax="" active="1"/>
+    <store id_country="TW" id_state="SIN" id="sed" city="Wagner-sur-Garcia" postcode="97526" latitude="-50.535216" longitude="-2.449134" email="pprevost@tiscali.fr" phone="" fax="" active="1"/>
+    <store id_country="JM" id_state="BR" id="at" city="TorresBourg" postcode="84962" latitude="-56.826773" longitude="62.979521" email="plebreton@wanadoo.fr" phone="" fax="" active="1"/>
+    <store id_country="FI" id_state="VT" id="est" city="Godard-sur-Labbe" postcode="68 988" latitude="-27.107035" longitude="-129.694737" email="theophile70@bouygtel.fr" phone="" fax="" active="1"/>
+    <store id_country="NC" id_state="AO" id="rem" city="Thomas-sur-Mer" postcode="63635" latitude="61.545747" longitude="121.466246" email="anouk.andre@simon.net" phone="" fax="" active="1"/>
+    <store id_country="RO" id_state="HI" id="velit" city="Petitjean" postcode="85834" latitude="-49.901418" longitude="11.903803" email="nath.maury@tele2.fr" phone="" fax="" active="1"/>
+    <store id_country="IT" id_state="ZAC" id="et" city="Blotnec" postcode="58286" latitude="-24.111179" longitude="109.500521" email="frederique22@laporte.fr" phone="" fax="" active="1"/>
+    <store id_country="NI" id_state="JP-39" id="quaerat" city="Lenoir" postcode="24 640" latitude="87.461443" longitude="-12.993851" email="ghoarau@auger.com" phone="" fax="" active="1"/>
+    <store id_country="GW" id_state="JP-47" id="dolorem" city="Raynaudnec" postcode="17 459" latitude="-11.441496" longitude="-92.632737" email="crousset@chretien.fr" phone="" fax="" active="1"/>
+    <store id_country="NP" id_state="SV" id="suscipit" city="Rousset" postcode="96 777" latitude="1.914679" longitude="-130.090551" email="zpons@tiscali.fr" phone="" fax="" active="1"/>
+    <store id_country="CN" id_state="AG" id="aut" city="Navarro" postcode="77004" latitude="53.454479" longitude="-168.83096" email="evrard.jacques@ramos.com" phone="" fax="" active="1"/>
+    <store id_country="BG" id_state="NY" id="amet" city="Pons" postcode="04 804" latitude="-33.795575" longitude="135.467881" email="gerard40@chretien.com" phone="" fax="" active="1"/>
+    <store id_country="BZ" id_state="ID-NT" id="ipsa" city="LeclercqBourg" postcode="43189" latitude="18.850336" longitude="91.190037" email="clement.philippe@herve.com" phone="" fax="" active="1"/>
+    <store id_country="UZ" id_state="CH" id="placeat" city="Pruvost-sur-Coste" postcode="57 922" latitude="16.517165" longitude="-118.165035" email="smahe@bertrand.com" phone="" fax="" active="1"/>
+    <store id_country="MF" id_state="JP-46" id="in" city="Menard" postcode="26 098" latitude="16.23516" longitude="78.719527" email="mrodrigues@tele2.fr" phone="" fax="" active="1"/>
+    <store id_country="MT" id_state="GRO" id="sunt" city="Robin" postcode="53022" latitude="-82.172714" longitude="125.417487" email="ycharpentier@noos.fr" phone="" fax="" active="1"/>
+    <store id_country="TC" id_state="PN" id="totam" city="Chauvin-sur-Collet" postcode="11 057" latitude="11.851574" longitude="-89.597469" email="francoise42@club-internet.fr" phone="" fax="" active="1"/>
+    <store id_country="BA" id_state="LU" id="repudiandae" city="Raymond" postcode="02468" latitude="71.560055" longitude="-103.068448" email="margot.martel@ifrance.com" phone="" fax="" active="1"/>
+    <store id_country="NE" id_state="ID-PA" id="dignissimos" city="Riounec" postcode="68674" latitude="28.046414" longitude="138.890745" email="suzanne.bernard@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="FM" id_state="ID" id="tempora" city="Lenoirdan" postcode="42 160" latitude="-19.836407" longitude="67.153391" email="tremy@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="UG" id_state="LE" id="sit" city="Alexandre-sur-Charpentier" postcode="40093" latitude="-80.474053" longitude="-40.843978" email="arnaude59@gmail.com" phone="" fax="" active="1"/>
+    <store id_country="TC" id_state="BO" id="magni" city="Weiss-les-Bains" postcode="00624" latitude="68.852873" longitude="-154.309655" email="capucine.jacob@hotmail.fr" phone="" fax="" active="1"/>
+    <store id_country="NI" id_state="PUE" id="iste" city="Levy" postcode="85 550" latitude="-20.118319" longitude="-40.648202" email="josette18@wanadoo.fr" phone="" fax="" active="1"/>
+    <store id_country="GT" id_state="LI" id="tempore" city="Teixeira" postcode="16150" latitude="-39.46439" longitude="33.150847" email="gomes.raymond@live.com" phone="" fax="" active="1"/>
+    <store id_country="TF" id_state="ID-JI" id="aliquam" city="Lebrun" postcode="24992" latitude="-45.792095" longitude="113.214357" email="nperret@royer.org" phone="" fax="" active="1"/>
+    <store id_country="RO" id_state="PU" id="qui" city="Chauvet-les-Bains" postcode="19456" latitude="-55.117313" longitude="61.30247" email="celine.fernandez@legendre.fr" phone="" fax="" active="1"/>
+    <store id_country="EE" id_state="ID-PA" id="mollitia" city="Francois-les-Bains" postcode="26702" latitude="-9.028322" longitude="-143.672701" email="cgautier@giraud.fr" phone="" fax="" active="1"/>
+    <store id_country="AS" id_state="ID-SU" id="facilis" city="LemonnierVille" postcode="29662" latitude="-19.421749" longitude="21.48136" email="agnes35@noos.fr" phone="" fax="" active="1"/>
+    <store id_country="RW" id_state="COL" id="unde" city="Denisboeuf" postcode="83202" latitude="-59.448395" longitude="88.243943" email="roger.benoit@gmail.com" phone="" fax="" active="1"/>
+    <store id_country="SM" id_state="NU" id="debitis" city="Ferreira-sur-Marchal" postcode="86319" latitude="-72.774938" longitude="-37.576305" email="leclerc.tristan@free.fr" phone="" fax="" active="1"/>
+    <store id_country="DM" id_state="LT" id="consequatur" city="Carpentier" postcode="51 135" latitude="49.605459" longitude="61.90449" email="laine.robert@voila.fr" phone="" fax="" active="1"/>
+    <store id_country="BR" id_state="BA" id="harum" city="Weber-sur-Mer" postcode="20 312" latitude="28.076766" longitude="-90.06046" email="roche.diane@gaudin.fr" phone="" fax="" active="1"/>
+    <store id_country="AW" id_state="ID-SB" id="repellat" city="AugerVille" postcode="54375" latitude="43.595321" longitude="138.907048" email="aurore.roy@lecoq.fr" phone="" fax="" active="1"/>
+    <store id_country="AN" id_state="U" id="aperiam" city="Barbierboeuf" postcode="51404" latitude="-84.630093" longitude="-56.08055" email="lemaitre.capucine@sfr.fr" phone="" fax="" active="1"/>
+    <store id_country="BW" id_state="IA" id="consectetur" city="Dupredan" postcode="69315" latitude="-52.979134" longitude="154.851924" email="maurice.langlois@arnaud.fr" phone="" fax="" active="1"/>
+    <store id_country="IM" id_state="COL" id="molestias" city="Berger-sur-Adam" postcode="19477" latitude="35.781995" longitude="-116.893071" email="jacques72@parent.org" phone="" fax="" active="1"/>
+    <store id_country="TJ" id_state="JP-01" id="incidunt" city="Hamelnec" postcode="86838" latitude="-85.209792" longitude="-5.463952" email="kcourtois@leveque.fr" phone="" fax="" active="1"/>
+    <store id_country="SB" id_state="GR" id="molestiae" city="Bouvet-sur-Bonnet" postcode="13724" latitude="-24.989266" longitude="178.517463" email="martin.bonnet@yahoo.fr" phone="" fax="" active="1"/>
+    <store id_country="AU" id_state="NB" id="natus" city="Dijoux-sur-Maillard" postcode="41118" latitude="-87.095821" longitude="53.304132" email="alix64@dbmail.com" phone="" fax="" active="1"/>
+    <store id_country="MA" id_state="CL" id="necessitatibus" city="Raymond-les-Bains" postcode="16398" latitude="-20.851101" longitude="-95.360165" email="marcelle83@riviere.fr" phone="" fax="" active="1"/>
+    <store id_country="NP" id_state="ROO" id="possimus" city="Perrier-sur-Paris" postcode="32 209" latitude="78.450876" longitude="124.073352" email="thierry.stephanie@potier.fr" phone="" fax="" active="1"/>
+    <store id_country="MM" id_state="NJ" id="vero" city="Masson" postcode="56 812" latitude="2.172963" longitude="-83.078254" email="nmillet@coulon.com" phone="" fax="" active="1"/>
+    <store id_country="PH" id_state="ID-BT" id="nulla" city="Lagardedan" postcode="71373" latitude="-53.942005" longitude="168.983548" email="cecile64@mahe.fr" phone="" fax="" active="1"/>
+    <store id_country="NG" id_state="JP-45" id="sequi" city="Lemaitre" postcode="80 764" latitude="-76.014242" longitude="-148.530679" email="dominique23@club-internet.fr" phone="" fax="" active="1"/>
+    <store id_country="AU" id_state="JP-33" id="asperiores" city="Paris" postcode="27 639" latitude="51.491159" longitude="67.293688" email="lcousin@leroux.com" phone="" fax="" active="1"/>
+    <store id_country="BR" id_state="JP-10" id="quisquam" city="Lecoq" postcode="41 840" latitude="40.867594" longitude="121.009206" email="dleroux@techer.fr" phone="" fax="" active="1"/>
+    <store id_country="NP" id_state="VR" id="officiis" city="Lopes-sur-Paul" postcode="33750" latitude="-49.069251" longitude="56.42241" email="guillaume46@techer.com" phone="" fax="" active="1"/>
+    <store id_country="EG" id_state="IN" id="doloremque" city="Georges-sur-Mer" postcode="51324" latitude="47.320865" longitude="-80.929907" email="gabriel.fleury@blot.com" phone="" fax="" active="1"/>
+    <store id_country="AE" id_state="AU-ACT" id="eaque" city="De Sousa" postcode="60 416" latitude="-84.698967" longitude="-146.55374" email="paul.lucy@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="JM" id_state="JP-12" id="cumque" city="Lombardnec" postcode="26 165" latitude="-18.547041" longitude="63.91384" email="eugene.hoareau@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="HM" id_state="ON" id="voluptate" city="Leclercq" postcode="64501" latitude="-18.983237" longitude="-57.30043" email="guillaume94@tiscali.fr" phone="" fax="" active="1"/>
+    <store id_country="RU" id_state="SP" id="id" city="Lejeune" postcode="41 598" latitude="-48.587792" longitude="-162.402874" email="luc49@leclerc.org" phone="" fax="" active="1"/>
+    <store id_country="AO" id_state="VA" id="eum" city="LopezVille" postcode="41 585" latitude="-70.23205" longitude="113.644236" email="pons.noel@langlois.com" phone="" fax="" active="1"/>
+    <store id_country="TT" id_state="S" id="blanditiis" city="Mace" postcode="30002" latitude="27.208779" longitude="69.023424" email="etienne21@sfr.fr" phone="" fax="" active="1"/>
+    <store id_country="AE" id_state="BO" id="similique" city="Perrot" postcode="04148" latitude="-69.170545" longitude="-177.208498" email="gomez.robert@laposte.net" phone="" fax="" active="1"/>
+    <store id_country="CI" id_state="J" id="pariatur" city="Louisboeuf" postcode="81645" latitude="-20.362483" longitude="55.563986" email="julien.stephane@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="RS" id_state="W" id="occaecati" city="Jacobnec" postcode="86112" latitude="-21.936534" longitude="-98.929131" email="menard.arnaude@huet.com" phone="" fax="" active="1"/>
+    <store id_country="JM" id_state="CB" id="fuga" city="Lemoine" postcode="84 002" latitude="5.507064" longitude="52.058681" email="obaron@gmail.com" phone="" fax="" active="1"/>
+    <store id_country="TJ" id_state="VER" id="ea" city="Blondel" postcode="07479" latitude="15.628725" longitude="-80.21632" email="petit.noemi@delannoy.com" phone="" fax="" active="1"/>
+    <store id_country="AS" id_state="CZ" id="omnis" city="Lefort-les-Bains" postcode="81 964" latitude="-36.192726" longitude="-11.214107" email="kpoirier@free.fr" phone="" fax="" active="1"/>
+    <store id_country="TZ" id_state="MI_1" id="perspiciatis" city="Leconte" postcode="28 236" latitude="42.826411" longitude="-95.759022" email="ribeiro.audrey@voila.fr" phone="" fax="" active="1"/>
+    <store id_country="BG" id_state="CH" id="perferendis" city="Blanchard" postcode="32893" latitude="59.076841" longitude="-31.453839" email="claude95@orange.fr" phone="" fax="" active="1"/>
+    <store id_country="AG" id_state="SK" id="officia" city="Delaunayboeuf" postcode="95 285" latitude="-26.004467" longitude="-19.198527" email="collet.renee@bouygtel.fr" phone="" fax="" active="1"/>
+  </entities>
+</entity_store>

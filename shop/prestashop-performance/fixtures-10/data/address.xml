@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_address>
+  <fields id="alias" class="Address">
+    <field name="id_country" relation="country"/>
+    <field name="id_state" relation="state"/>
+    <field name="id_customer" relation="customer"/>
+    <field name="id_manufacturer" relation="manufacturer"/>
+    <field name="id_supplier" relation="supplier"/>
+    <field name="id_warehouse"/>
+    <field name="alias"/>
+    <field name="company"/>
+    <field name="lastname"/>
+    <field name="firstname"/>
+    <field name="address1"/>
+    <field name="address2"/>
+    <field name="postcode"/>
+    <field name="city"/>
+    <field name="other"/>
+    <field name="phone_mobile"/>
+    <field name="vat_number"/>
+    <field name="dni"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <address id_customer="" id_manufacturer="" id_country="RW" id_state="AU-WA" id_supplier="cumque molestiae" id="ipsam" alias="ipsam" company="Hoarau" lastname="Lebrun" firstname="Marguerite" address1="213, chemin de Guillou&#10;02 005 Sanchezboeuf" address2="65, place Agathe Guillon" postcode="99 407" city="Guillet" other="eum" phone_mobile="+33 (0)8 06 66 01 82" vat_number="171894" active="1" id_warehouse="0" dni=""/>
+    <address id_manufacturer="" id_supplier="" id_country="IO" id_state="CA_1" id_customer="4" id="numquam" alias="numquam" company="Begue" lastname="Legrand" firstname="Suzanne" address1="place Germain&#10;70 204 Fernandes-sur-Bernier" address2="762, rue René Loiseau" postcode="53 441" city="Gonzalez" other="a" phone_mobile="+33 (0)3 64 67 29 70" vat_number="968422" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_manufacturer="" id_country="AD" id_state="CL" id_supplier="non corporis" id="in" alias="in" company="Dupre SAS" lastname="Gonzalez" firstname="Denis" address1="19, avenue de Duhamel&#10;19316 Texier" address2="258, boulevard Buisson" postcode="60167" city="Fournier" other="sed" phone_mobile="08 91 59 90 70" vat_number="893357" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_manufacturer="" id_country="UG" id_state="RI_1" id_supplier="aliquid qui" id="aut" alias="aut" company="Lebrun" lastname="Carlier" firstname="Adrien" address1="678, impasse Noel&#10;81986 Lemaitrenec" address2="33, chemin de Deschamps" postcode="57871" city="VidalVille" other="quo" phone_mobile="+33 3 92 45 41 53" vat_number="700589" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_manufacturer="" id_country="PK" id_state="DUR" id_supplier="nam atque" id="fugiat" alias="fugiat" company="Lefevre S.A." lastname="Paul" firstname="Virginie" address1="69, place Cohen&#10;58984 Menard" address2="519, boulevard de Dos Santos" postcode="13766" city="Sanchez-les-Bains" other="provident" phone_mobile="0895178605" vat_number="569770" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_supplier="" id_country="GF" id_state="MS_1" id_manufacturer="accusantium molestiae" id="dolorem" alias="dolorem" company="Weiss" lastname="Bertrand" firstname="Bernard" address1="34, chemin Capucine Le Goff&#10;56416 Dupont-sur-Mer" address2="20, chemin André Pichon" postcode="22 337" city="Marin" other="omnis" phone_mobile="+33 (0)5 92 85 09 06" vat_number="105045" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_manufacturer="" id_country="FO" id_state="DE" id_supplier="nam atque" id="aliquam" alias="aliquam" company="Roy" lastname="Sauvage" firstname="Dominique" address1="974, chemin Sophie Grondin&#10;40602 Cohen" address2="56, place Carlier" postcode="00642" city="Gerarddan" other="fugit" phone_mobile="+33 (0)4 74 90 90 62" vat_number="959399" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_supplier="" id_country="LK" id_state="GO" id_manufacturer="laboriosam dolorum" id="et" alias="et" company="Fontaine SARL" lastname="Jacob" firstname="Sébastien" address1="219, impasse Mathilde Jacques&#10;43794 Blanc-sur-Mer" address2="80, boulevard Gabrielle Clement" postcode="98750" city="Carlier" other="reiciendis" phone_mobile="04 43 80 34 77" vat_number="711784" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_supplier="" id_country="IE" id_state="CZ" id_manufacturer="accusantium molestiae" id="officia" alias="officia" company="Roux Guillon S.A.R.L." lastname="Baudry" firstname="Agathe" address1="34, place Sylvie Leroy&#10;39622 Rodriguez" address2="45, impasse de Goncalves" postcode="93927" city="DurandBourg" other="qui" phone_mobile="01 06 13 72 02" vat_number="243077" active="1" id_warehouse="0" dni=""/>
+    <address id_customer="" id_manufacturer="" id_country="KH" id_state="WY" id_supplier="aliquid qui" id="consequuntur" alias="consequuntur" company="Marchand Riou SARL" lastname="Georges" firstname="Théodore" address1="boulevard Bazin&#10;24 277 Verdier-sur-Mer" address2="53, boulevard Laine" postcode="03572" city="Cousin" other="natus" phone_mobile="0784817844" vat_number="352631" active="1" id_warehouse="0" dni=""/>
+  </entities>
+</entity_address>

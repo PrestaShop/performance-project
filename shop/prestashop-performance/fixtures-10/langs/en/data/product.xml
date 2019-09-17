@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_product>
+  <product id_shop="1" id="1" name="reprehenderit rerum voluptatem fugiat ab eum" description="Ipsum eius dignissimos rem." description_short="At tempora accusantium nihil veniam ipsum." link_rewrite="rerum-placeat-et-nesciunt-quis-rem-quidem-minus-eaque" available_now="In stock"/>
+  <product id_shop="1" id="2" name="quia saepe consequuntur quis nisi voluptatibus" description="Quasi sit vitae quis distinctio explicabo dolore." description_short="Officia ut nostrum." link_rewrite="eaque-dolores-molestiae-nam" available_now="In stock"/>
+  <product id_shop="1" id="3" name="voluptatem repellendus dignissimos et quos omnis" description="Facere placeat et enim architecto ducimus." description_short="Illo ut et quia enim." link_rewrite="delectus-hic-cupiditate-non-neque-voluptas" available_now="In stock"/>
+  <product id_shop="1" id="4" name="esse autem assumenda quo eos quia" description="Nobis dicta amet voluptas magnam." description_short="Dicta placeat rerum accusamus in." link_rewrite="harum-doloribus-quis-consequatur-voluptatibus" available_now="In stock"/>
+  <product id_shop="1" id="5" name="in incidunt ut ut eveniet ut" description="Recusandae ad quisquam dolor numquam ut." description_short="Deserunt veniam rem velit neque." link_rewrite="libero-quo-blanditiis-ratione-et" available_now="In stock"/>
+  <product id_shop="1" id="6" name="amet ut quia inventore dolore cum" description="Officiis quia enim et distinctio." description_short="Nihil impedit cumque." link_rewrite="enim-et-ut-et-dolor" available_now="In stock"/>
+  <product id_shop="1" id="7" name="velit et est sapiente minima sit" description="Ad ea excepturi quia." description_short="Corporis voluptatem voluptatibus illum ut." link_rewrite="sit-vitae-quas-non-aut-quisquam-non-voluptatum-eos" available_now="In stock"/>
+  <product id_shop="1" id="8" name="dolor accusamus numquam enim sit consequuntur" description="Et sint nesciunt autem quam." description_short="Quia quidem reiciendis." link_rewrite="autem-ad-voluptatem-enim-quaerat-consequatur-corporis-omnis" available_now="In stock"/>
+  <product id_shop="1" id="9" name="provident vitae et laboriosam veniam qui" description="Hic laborum accusantium quae ea eos id nemo." description_short="Atque amet aut autem aliquid rerum." link_rewrite="adipisci-occaecati-ut-dolorum-rerum-velit-voluptatem-quia-est" available_now="In stock"/>
+  <product id_shop="1" id="10" name="ducimus voluptatem suscipit vel eveniet dolorem" description="Velit nulla quo minus dolor." description_short="Et enim amet asperiores enim et." link_rewrite="in-itaque-minus-eos-enim" available_now="In stock"/>
+</entity_product>

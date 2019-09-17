@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_range_price>
+  <fields class="RangePrice">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delimiter1"/>
+    <field name="delimiter2"/>
+  </fields>
+  <entities>
+    <range_price id_carrier="carrier_1" id="1" delimiter2="1613" delimiter1="0"/>
+    <range_price id_carrier="ipsam" id="2" delimiter2="3577" delimiter1="0"/>
+    <range_price id_carrier="iure" id="3" delimiter2="1746" delimiter1="0"/>
+    <range_price id_carrier="et" id="4" delimiter2="8118" delimiter1="0"/>
+    <range_price id_carrier="iure" id="5" delimiter2="8332" delimiter1="0"/>
+    <range_price id_carrier="et" id="6" delimiter2="6768" delimiter1="0"/>
+    <range_price id_carrier="ipsam" id="7" delimiter2="8505" delimiter1="0"/>
+    <range_price id_carrier="ipsam" id="8" delimiter2="6525" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="9" delimiter2="6334" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="10" delimiter2="6490" delimiter1="0"/>
+  </entities>
+</entity_range_price>

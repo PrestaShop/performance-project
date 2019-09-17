@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_specific_price>
+  <fields class="SpecificPrice">
+    <field name="id_cart" relation="cart"/>
+    <field name="id_product" relation="product"/>
+    <field name="id_shop"/>
+    <field name="id_shop_group"/>
+    <field name="id_currency"/>
+    <field name="id_country" relation="country"/>
+    <field name="id_group" relation="group"/>
+    <field name="id_customer" relation="customer"/>
+    <field name="id_product_attribute" relation="product_attribute"/>
+    <field name="price"/>
+    <field name="from_quantity"/>
+    <field name="reduction"/>
+    <field name="reduction_tax"/>
+    <field name="reduction_type"/>
+    <field name="from"/>
+    <field name="to"/>
+  </fields>
+  <entities>
+    <specific_price id_cart="5" id_product="7" id_country="ZW" id_group="0" id_customer="10" id_product_attribute="49" id_shop="1" id_shop_group="0" id_currency="0" from_quantity="4" reduction="1" from="2014-04-16 01:31:50" to="1991-01-25 07:05:01" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="6" id_product="4" id_country="0" id_group="Guest" id_customer="0" id_product_attribute="0" id_shop="1" id_shop_group="0" id_currency="0" from_quantity="1" reduction="2" from="1997-09-24 07:36:13" to="2013-07-18 23:54:34" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="10" id_product="3" id_country="CV" id_group="Guest" id_customer="0" id_product_attribute="0" id_shop="1" id_shop_group="0" id_currency="0" from_quantity="7" reduction="2" from="2012-08-08 05:23:54" to="2016-12-23 09:29:32" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="7" id_product="9" id_country="CX" id_group="0" id_customer="0" id_product_attribute="48" id_shop="0" id_shop_group="0" id_currency="0" from_quantity="2" reduction="2" from="1983-02-22 04:16:04" to="1996-12-11 12:34:39" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="4" id_product="1" id_country="0" id_group="0" id_customer="4" id_product_attribute="0" id_shop="0" id_shop_group="0" id_currency="1" from_quantity="6" reduction="2" from="2006-08-22 01:06:48" to="2006-09-03 21:14:38" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="4" id_product="5" id_country="US" id_group="Visitor" id_customer="0" id_product_attribute="46" id_shop="1" id_shop_group="1" id_currency="1" from_quantity="7" reduction="1" from="1976-01-27 09:02:33" to="1987-09-05 21:05:43" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="5" id_product="1" id_country="0" id_group="Guest" id_customer="5" id_product_attribute="15" id_shop="0" id_shop_group="1" id_currency="0" from_quantity="10" reduction="1" from="1991-11-08 22:29:31" to="2010-01-25 05:43:33" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="9" id_product="5" id_country="0" id_group="0" id_customer="9" id_product_attribute="26" id_shop="1" id_shop_group="1" id_currency="0" from_quantity="8" reduction="1" from="1988-11-26 14:07:55" to="1987-01-09 15:15:22" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="6" id_product="6" id_country="GH" id_group="Visitor" id_customer="7" id_product_attribute="0" id_shop="0" id_shop_group="0" id_currency="1" from_quantity="10" reduction="1" from="1976-10-23 01:44:12" to="2010-08-25 06:24:20" price="-1" reduction_tax="1" reduction_type="percentage"/>
+    <specific_price id_cart="10" id_product="8" id_country="0" id_group="Visitor" id_customer="10" id_product_attribute="26" id_shop="1" id_shop_group="0" id_currency="1" from_quantity="6" reduction="2" from="2012-05-09 16:54:55" to="1989-02-10 05:07:52" price="-1" reduction_tax="1" reduction_type="percentage"/>
+  </entities>
+</entity_specific_price>

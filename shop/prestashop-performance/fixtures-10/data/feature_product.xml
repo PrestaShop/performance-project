@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_feature_product>
+  <fields primary="id_feature,id_product">
+    <field name="id_product" relation="product"/>
+    <field name="id_feature_value" relation="feature_value"/>
+    <field name="id_feature" relation="feature"/>
+  </fields>
+  <entities>
+    <feature_product id_product="1" id_feature_value="43" id_feature="9"/>
+    <feature_product id_product="1" id_feature_value="34" id_feature="7"/>
+    <feature_product id_product="1" id_feature_value="24" id_feature="5"/>
+    <feature_product id_product="1" id_feature_value="37" id_feature="8"/>
+    <feature_product id_product="1" id_feature_value="44" id_feature="9"/>
+    <feature_product id_product="2" id_feature_value="10" id_feature="2"/>
+    <feature_product id_product="2" id_feature_value="4" id_feature="1"/>
+    <feature_product id_product="2" id_feature_value="27" id_feature="6"/>
+    <feature_product id_product="2" id_feature_value="43" id_feature="9"/>
+    <feature_product id_product="2" id_feature_value="18" id_feature="4"/>
+    <feature_product id_product="3" id_feature_value="16" id_feature="4"/>
+    <feature_product id_product="3" id_feature_value="1" id_feature="1"/>
+    <feature_product id_product="3" id_feature_value="1" id_feature="1"/>
+    <feature_product id_product="3" id_feature_value="17" id_feature="4"/>
+    <feature_product id_product="3" id_feature_value="34" id_feature="7"/>
+    <feature_product id_product="4" id_feature_value="49" id_feature="10"/>
+    <feature_product id_product="4" id_feature_value="12" id_feature="3"/>
+    <feature_product id_product="4" id_feature_value="1" id_feature="1"/>
+    <feature_product id_product="4" id_feature_value="43" id_feature="9"/>
+    <feature_product id_product="4" id_feature_value="19" id_feature="4"/>
+    <feature_product id_product="5" id_feature_value="5" id_feature="1"/>
+    <feature_product id_product="5" id_feature_value="9" id_feature="2"/>
+    <feature_product id_product="5" id_feature_value="22" id_feature="5"/>
+    <feature_product id_product="5" id_feature_value="24" id_feature="5"/>
+    <feature_product id_product="5" id_feature_value="32" id_feature="7"/>
+    <feature_product id_product="6" id_feature_value="21" id_feature="5"/>
+    <feature_product id_product="6" id_feature_value="49" id_feature="10"/>
+    <feature_product id_product="6" id_feature_value="44" id_feature="9"/>
+    <feature_product id_product="6" id_feature_value="29" id_feature="6"/>
+    <feature_product id_product="6" id_feature_value="2" id_feature="1"/>
+    <feature_product id_product="7" id_feature_value="5" id_feature="1"/>
+    <feature_product id_product="7" id_feature_value="44" id_feature="9"/>
+    <feature_product id_product="7" id_feature_value="42" id_feature="9"/>
+    <feature_product id_product="7" id_feature_value="28" id_feature="6"/>
+    <feature_product id_product="7" id_feature_value="47" id_feature="10"/>
+    <feature_product id_product="8" id_feature_value="35" id_feature="7"/>
+    <feature_product id_product="8" id_feature_value="35" id_feature="7"/>
+    <feature_product id_product="8" id_feature_value="50" id_feature="10"/>
+    <feature_product id_product="8" id_feature_value="32" id_feature="7"/>
+    <feature_product id_product="8" id_feature_value="28" id_feature="6"/>
+    <feature_product id_product="9" id_feature_value="30" id_feature="6"/>
+    <feature_product id_product="9" id_feature_value="23" id_feature="5"/>
+    <feature_product id_product="9" id_feature_value="17" id_feature="4"/>
+    <feature_product id_product="9" id_feature_value="31" id_feature="7"/>
+    <feature_product id_product="9" id_feature_value="40" id_feature="8"/>
+    <feature_product id_product="10" id_feature_value="20" id_feature="4"/>
+    <feature_product id_product="10" id_feature_value="13" id_feature="3"/>
+    <feature_product id_product="10" id_feature_value="38" id_feature="8"/>
+    <feature_product id_product="10" id_feature_value="25" id_feature="5"/>
+    <feature_product id_product="10" id_feature_value="9" id_feature="2"/>
+  </entities>
+</entity_feature_product>

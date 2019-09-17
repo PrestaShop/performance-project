@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_range_weight>
+  <fields class="RangeWeight">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delimiter1"/>
+    <field name="delimiter2"/>
+  </fields>
+  <entities>
+    <range_weight id_carrier="carrier_1" id="1" delimiter2="5417" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="2" delimiter2="9703" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="3" delimiter2="6283" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="4" delimiter2="9359" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="5" delimiter2="9234" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="6" delimiter2="4419" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="7" delimiter2="8555" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="8" delimiter2="2828" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="9" delimiter2="3526" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="10" delimiter2="7979" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="11" delimiter2="5766" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="12" delimiter2="7822" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="13" delimiter2="8336" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="14" delimiter2="5750" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="15" delimiter2="9894" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="16" delimiter2="3291" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="17" delimiter2="7151" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="18" delimiter2="7079" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="19" delimiter2="2026" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="20" delimiter2="8033" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="21" delimiter2="1437" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="22" delimiter2="3233" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="23" delimiter2="5693" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="24" delimiter2="8006" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="25" delimiter2="6627" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="26" delimiter2="7792" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="27" delimiter2="4200" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="28" delimiter2="1119" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="29" delimiter2="1783" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="30" delimiter2="9510" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="31" delimiter2="3364" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="32" delimiter2="4337" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="33" delimiter2="2312" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="34" delimiter2="5388" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="35" delimiter2="6771" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="36" delimiter2="5727" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="37" delimiter2="5659" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="38" delimiter2="9144" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="39" delimiter2="7347" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="40" delimiter2="4337" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="41" delimiter2="2346" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="42" delimiter2="4709" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="43" delimiter2="4622" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="44" delimiter2="5740" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="45" delimiter2="9760" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="46" delimiter2="7963" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="47" delimiter2="1599" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="48" delimiter2="1033" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="49" delimiter2="7786" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="50" delimiter2="8924" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="51" delimiter2="2522" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="52" delimiter2="3705" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="53" delimiter2="1980" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="54" delimiter2="5570" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="55" delimiter2="8428" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="56" delimiter2="4871" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="57" delimiter2="5184" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="58" delimiter2="4386" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="59" delimiter2="6888" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="60" delimiter2="8117" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="61" delimiter2="5538" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="62" delimiter2="8467" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="63" delimiter2="6749" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="64" delimiter2="8324" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="65" delimiter2="7555" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="66" delimiter2="4835" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="67" delimiter2="8309" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="68" delimiter2="1088" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="69" delimiter2="8634" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="70" delimiter2="6401" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="71" delimiter2="3159" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="72" delimiter2="1500" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="73" delimiter2="1724" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="74" delimiter2="3400" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="75" delimiter2="1804" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="76" delimiter2="4183" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="77" delimiter2="8300" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="78" delimiter2="4242" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="79" delimiter2="8707" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="80" delimiter2="7720" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="81" delimiter2="4229" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="82" delimiter2="7706" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="83" delimiter2="1163" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="84" delimiter2="8054" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="85" delimiter2="9233" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="86" delimiter2="8371" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="87" delimiter2="4699" delimiter1="0"/>
+    <range_weight id_carrier="carrier_1" id="88" delimiter2="6737" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="89" delimiter2="6687" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="90" delimiter2="4541" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="91" delimiter2="8506" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="92" delimiter2="6095" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="93" delimiter2="9617" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="94" delimiter2="9967" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="95" delimiter2="7163" delimiter1="0"/>
+    <range_weight id_carrier="My_carrier" id="96" delimiter2="1306" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="97" delimiter2="9428" delimiter1="0"/>
+    <range_weight id_carrier="voluptas" id="98" delimiter2="5334" delimiter1="0"/>
+    <range_weight id_carrier="aut" id="99" delimiter2="7181" delimiter1="0"/>
+    <range_weight id_carrier="esse" id="100" delimiter2="5670" delimiter1="0"/>
+  </entities>
+</entity_range_weight>

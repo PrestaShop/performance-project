@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_category>
+  <fields id="name" class="Category" sql="a.id_category &gt; 2" image="c">
+    <field name="id_parent" relation="category"/>
+    <field name="active"/>
+    <field name="is_root_category"/>
+  </fields>
+  <entities>
+    <category id_parent="Root" id="placeat" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="aliquam" active="1" is_root_category="0"/>
+    <category id_parent="aliquam" id="corporis" active="1" is_root_category="0"/>
+    <category id_parent="aliquam" id="asperiores" active="1" is_root_category="0"/>
+    <category id_parent="placeat" id="est" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="rerum" active="1" is_root_category="0"/>
+    <category id_parent="asperiores" id="delectus" active="1" is_root_category="0"/>
+    <category id_parent="asperiores" id="reprehenderit" active="1" is_root_category="0"/>
+    <category id_parent="aliquam" id="debitis" active="1" is_root_category="0"/>
+    <category id_parent="reprehenderit" id="commodi" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="laborum" active="1" is_root_category="0"/>
+    <category id_parent="corporis" id="sed" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="voluptas" active="1" is_root_category="0"/>
+    <category id_parent="est" id="dolorem" active="1" is_root_category="0"/>
+    <category id_parent="commodi" id="asperiores" active="1" is_root_category="0"/>
+    <category id_parent="commodi" id="aut" active="1" is_root_category="0"/>
+    <category id_parent="aut" id="quibusdam" active="1" is_root_category="0"/>
+    <category id_parent="est" id="sequi" active="1" is_root_category="0"/>
+    <category id_parent="debitis" id="culpa" active="1" is_root_category="0"/>
+    <category id_parent="voluptas" id="quia" active="1" is_root_category="0"/>
+    <category id_parent="quia" id="tenetur" active="1" is_root_category="0"/>
+    <category id_parent="sed" id="sed" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="laboriosam" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="quasi" active="1" is_root_category="0"/>
+    <category id_parent="quia" id="incidunt" active="0" is_root_category="0"/>
+    <category id_parent="sed" id="quam" active="1" is_root_category="0"/>
+    <category id_parent="quibusdam" id="autem" active="1" is_root_category="0"/>
+    <category id_parent="quia" id="autem" active="1" is_root_category="0"/>
+    <category id_parent="autem" id="omnis" active="1" is_root_category="0"/>
+    <category id_parent="laborum" id="cumque" active="1" is_root_category="0"/>
+    <category id_parent="dolorem" id="itaque" active="1" is_root_category="0"/>
+    <category id_parent="autem" id="commodi" active="1" is_root_category="0"/>
+    <category id_parent="culpa" id="laboriosam" active="1" is_root_category="0"/>
+    <category id_parent="est" id="quod" active="1" is_root_category="0"/>
+    <category id_parent="incidunt" id="veritatis" active="1" is_root_category="0"/>
+    <category id_parent="itaque" id="quia" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="eum" active="1" is_root_category="0"/>
+    <category id_parent="sed" id="sed" active="1" is_root_category="0"/>
+    <category id_parent="itaque" id="est" active="1" is_root_category="0"/>
+    <category id_parent="asperiores" id="odio" active="1" is_root_category="0"/>
+    <category id_parent="culpa" id="aut" active="0" is_root_category="0"/>
+    <category id_parent="aut" id="accusamus" active="1" is_root_category="0"/>
+    <category id_parent="culpa" id="aut" active="1" is_root_category="0"/>
+    <category id_parent="est" id="voluptas" active="0" is_root_category="0"/>
+    <category id_parent="commodi" id="qui" active="1" is_root_category="0"/>
+    <category id_parent="commodi" id="incidunt" active="1" is_root_category="0"/>
+    <category id_parent="placeat" id="est" active="1" is_root_category="0"/>
+    <category id_parent="quam" id="sed" active="1" is_root_category="0"/>
+    <category id_parent="laboriosam" id="numquam" active="1" is_root_category="0"/>
+    <category id_parent="Home" id="dignissimos" active="0" is_root_category="0"/>
+    <category id_parent="asperiores" id="pariatur" active="1" is_root_category="0"/>
+    <category id_parent="autem" id="sit" active="1" is_root_category="0"/>
+    <category id_parent="pariatur" id="unde" active="1" is_root_category="0"/>
+    <category id_parent="quam" id="voluptas" active="1" is_root_category="0"/>
+    <category id_parent="sed" id="est" active="1" is_root_category="0"/>
+    <category id_parent="eum" id="corporis" active="1" is_root_category="0"/>
+    <category id_parent="incidunt" id="odio" active="1" is_root_category="0"/>
+    <category id_parent="numquam" id="voluptatem" active="1" is_root_category="0"/>
+    <category id_parent="omnis" id="eos" active="1" is_root_category="0"/>
+    <category id_parent="aliquam" id="vel" active="1" is_root_category="0"/>
+    <category id_parent="itaque" id="dolores" active="1" is_root_category="0"/>
+    <category id_parent="laborum" id="fuga" active="1" is_root_category="0"/>
+    <category id_parent="eos" id="tenetur" active="1" is_root_category="0"/>
+    <category id_parent="autem" id="consequatur" active="1" is_root_category="0"/>
+    <category id_parent="placeat" id="voluptatibus" active="1" is_root_category="0"/>
+    <category id_parent="asperiores" id="est" active="1" is_root_category="0"/>
+    <category id_parent="commodi" id="ducimus" active="1" is_root_category="0"/>
+    <category id_parent="qui" id="molestiae" active="1" is_root_category="0"/>
+    <category id_parent="fuga" id="culpa" active="1" is_root_category="0"/>
+    <category id_parent="numquam" id="quidem" active="1" is_root_category="0"/>
+    <category id_parent="unde" id="esse" active="1" is_root_category="0"/>
+    <category id_parent="tenetur" id="atque" active="1" is_root_category="0"/>
+    <category id_parent="reprehenderit" id="distinctio" active="1" is_root_category="0"/>
+    <category id_parent="odio" id="sint" active="1" is_root_category="0"/>
+    <category id_parent="esse" id="beatae" active="1" is_root_category="0"/>
+    <category id_parent="quibusdam" id="magnam" active="1" is_root_category="0"/>
+    <category id_parent="veritatis" id="rem" active="0" is_root_category="0"/>
+    <category id_parent="itaque" id="tempora" active="1" is_root_category="0"/>
+    <category id_parent="delectus" id="est" active="0" is_root_category="0"/>
+    <category id_parent="dolorem" id="similique" active="1" is_root_category="0"/>
+    <category id_parent="quam" id="nihil" active="1" is_root_category="0"/>
+    <category id_parent="reprehenderit" id="nulla" active="1" is_root_category="0"/>
+    <category id_parent="Root" id="aspernatur" active="1" is_root_category="0"/>
+    <category id_parent="aut" id="assumenda" active="1" is_root_category="0"/>
+    <category id_parent="numquam" id="natus" active="1" is_root_category="0"/>
+    <category id_parent="fuga" id="atque" active="1" is_root_category="0"/>
+    <category id_parent="commodi" id="officia" active="1" is_root_category="0"/>
+    <category id_parent="quam" id="neque" active="1" is_root_category="0"/>
+    <category id_parent="eos" id="quaerat" active="1" is_root_category="0"/>
+    <category id_parent="odio" id="dignissimos" active="1" is_root_category="0"/>
+    <category id_parent="cumque" id="molestiae" active="1" is_root_category="0"/>
+    <category id_parent="delectus" id="enim" active="1" is_root_category="0"/>
+    <category id_parent="quod" id="reprehenderit" active="1" is_root_category="0"/>
+    <category id_parent="tempora" id="distinctio" active="1" is_root_category="0"/>
+    <category id_parent="sed" id="non" active="0" is_root_category="0"/>
+    <category id_parent="molestiae" id="et" active="1" is_root_category="0"/>
+    <category id_parent="nulla" id="veritatis" active="1" is_root_category="0"/>
+    <category id_parent="odio" id="voluptate" active="1" is_root_category="0"/>
+    <category id_parent="debitis" id="possimus" active="1" is_root_category="0"/>
+    <category id_parent="dolores" id="aut" active="1" is_root_category="0"/>
+  </entities>
+</entity_category>

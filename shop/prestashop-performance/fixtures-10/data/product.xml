@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_product>
+  <fields class="Product">
+    <field name="id_supplier" relation="supplier"/>
+    <field name="id_manufacturer" relation="manufacturer"/>
+    <field name="id_category_default" relation="category"/>
+    <field name="on_sale"/>
+    <field name="online_only"/>
+    <field name="ean13"/>
+    <field name="upc"/>
+    <field name="ecotax"/>
+    <field name="quantity"/>
+    <field name="minimal_quantity"/>
+    <field name="price"/>
+    <field name="wholesale_price"/>
+    <field name="unit_price_ratio"/>
+    <field name="additional_shipping_cost"/>
+    <field name="reference"/>
+    <field name="supplier_reference"/>
+    <field name="width"/>
+    <field name="height"/>
+    <field name="depth"/>
+    <field name="out_of_stock"/>
+    <field name="quantity_discount"/>
+    <field name="customizable"/>
+    <field name="uploadable_files"/>
+    <field name="text_fields"/>
+    <field name="active"/>
+    <field name="redirect_type"/>
+    <field name="id_type_redirected"/>
+    <field name="available_for_order"/>
+    <field name="available_date"/>
+    <field name="condition"/>
+    <field name="show_price"/>
+    <field name="indexed"/>
+    <field name="cache_is_pack"/>
+    <field name="cache_has_attachments"/>
+    <field name="is_virtual"/>
+    <field name="cache_default_attribute"/>
+    <field name="advanced_stock_management"/>
+  </fields>
+  <entities>
+    <product id_supplier="aliquid qui" id_manufacturer="eligendi id" id_category_default="Home" id="1" ean13="4467813062162" upc="11737636" quantity="49" price="966" reference="76d1fb975364644583351a685a6cb2b5" width="1" height="4" depth="3" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="9.66" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="at dolor" id_manufacturer="assumenda accusantium" id_category_default="eos" id="2" ean13="1029052519505" upc="74690077" quantity="57" price="569" reference="203d07c172c07a6d7adb473fb4ca7d01" width="1" height="4" depth="5" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="5.69" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="nam atque" id_manufacturer="repudiandae nemo" id_category_default="voluptatem" id="3" ean13="6016425082624" upc="09532120" quantity="33" price="666" reference="a02898e3688f9668a782678dcd95ae2d" width="6" height="9" depth="1" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="6.66" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="dolores qui" id_manufacturer="quibusdam in" id_category_default="cumque" id="4" ean13="5560481421343" upc="21526053" quantity="23" price="820" reference="719cda1e72c58cdcc2beeddef9a4c1fd" width="7" height="0" depth="1" out_of_stock="2" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="8.2" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="aliquid qui" id_manufacturer="ab tempore" id_category_default="Root" id="5" ean13="3616368405417" upc="04723943" quantity="61" price="357" reference="eab376a57aaa94274ea7b012e5993697" width="9" height="7" depth="1" out_of_stock="2" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="3.57" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="aliquid qui" id_manufacturer="quibusdam in" id_category_default="quod" id="6" ean13="1416094899526" upc="91881281" quantity="3" price="220" reference="cd84371635e77b8f2b4a8f15caaa9413" width="1" height="5" depth="1" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="2.2" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="nam atque" id_manufacturer="accusantium molestiae" id_category_default="quod" id="7" ean13="3544776494009" upc="90575129" quantity="86" price="881" reference="561e48a25f8a22be7845b2fb2e3d0d31" width="8" height="6" depth="6" out_of_stock="2" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="8.81" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="dolores qui" id_manufacturer="assumenda accusantium" id_category_default="Root" id="8" ean13="1606880112643" upc="19848105" quantity="77" price="548" reference="c5a46d5c7da5f953318429c9923f4629" width="5" height="0" depth="3" out_of_stock="2" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="5.48" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="molestiae et" id_manufacturer="ratione tenetur" id_category_default="occaecati" id="9" ean13="5293094338356" upc="20196387" quantity="32" price="726" reference="d9653d1cbc136d8c8d6157622e0c3c38" width="5" height="7" depth="9" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="7.26" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+    <product id_supplier="non corporis" id_manufacturer="accusantium molestiae" id_category_default="cumque" id="10" ean13="3075651551598" upc="29509300" quantity="83" price="996" reference="e4f4656d6614ed678c1e50aa6580c2b5" width="4" height="8" depth="6" out_of_stock="1" on_sale="0" online_only="0" ecotax="0" minimal_quantity="1" wholesale_price="9.96" unit_price_ratio="0" additional_shipping_cost="0" supplier_reference="" quantity_discount="0" customizable="0" uploadable_files="0" text_fields="0" active="1" redirect_type="404" id_type_redirected="0" available_for_order="1" available_date="0000-00-00" condition="new" show_price="1" indexed="1" cache_is_pack="0" cache_has_attachments="0" is_virtual="0" cache_default_attribute="0" advanced_stock_management="0"/>
+  </entities>
+</entity_product>

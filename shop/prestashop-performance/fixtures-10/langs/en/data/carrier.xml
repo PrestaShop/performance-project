@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_carrier>
+  <carrier id="My_carrier" delay="Delivery next day!"/>
+  <carrier id="ipsam" delay="qui voluptas adipisci"/>
+  <carrier id="et" delay="autem eligendi sunt"/>
+  <carrier id="iure" delay="qui dolorem eligendi"/>
+</entity_carrier>

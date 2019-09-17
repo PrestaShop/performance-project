@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_attribute_group>
+  <fields class="AttributeGroup">
+    <field name="group_type"/>
+    <field name="is_color_group"/>
+  </fields>
+  <entities>
+    <attribute_group id="1" group_type="radio" is_color_group="1"/>
+    <attribute_group id="2" group_type="radio" is_color_group="1"/>
+    <attribute_group id="3" group_type="select" is_color_group="1"/>
+    <attribute_group id="4" group_type="color" is_color_group="1"/>
+    <attribute_group id="5" group_type="select" is_color_group="1"/>
+    <attribute_group id="6" group_type="color" is_color_group="1"/>
+    <attribute_group id="7" group_type="radio" is_color_group="1"/>
+    <attribute_group id="8" group_type="radio" is_color_group="1"/>
+    <attribute_group id="9" group_type="color" is_color_group="0"/>
+    <attribute_group id="10" group_type="radio" is_color_group="1"/>
+  </entities>
+</entity_attribute_group>

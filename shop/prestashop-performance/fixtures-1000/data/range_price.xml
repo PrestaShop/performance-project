@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_range_price>
+  <fields class="RangePrice">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="delimiter1"/>
+    <field name="delimiter2"/>
+  </fields>
+  <entities>
+    <range_price id_carrier="carrier_1" id="1" delimiter2="8596" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="2" delimiter2="2412" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="3" delimiter2="7943" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="4" delimiter2="8311" delimiter1="0"/>
+    <range_price id_carrier="esse" id="5" delimiter2="2184" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="6" delimiter2="2465" delimiter1="0"/>
+    <range_price id_carrier="esse" id="7" delimiter2="9845" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="8" delimiter2="5486" delimiter1="0"/>
+    <range_price id_carrier="aut" id="9" delimiter2="7180" delimiter1="0"/>
+    <range_price id_carrier="esse" id="10" delimiter2="9699" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="11" delimiter2="9678" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="12" delimiter2="8120" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="13" delimiter2="2594" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="14" delimiter2="9376" delimiter1="0"/>
+    <range_price id_carrier="aut" id="15" delimiter2="2259" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="16" delimiter2="2406" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="17" delimiter2="2098" delimiter1="0"/>
+    <range_price id_carrier="aut" id="18" delimiter2="6410" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="19" delimiter2="9783" delimiter1="0"/>
+    <range_price id_carrier="esse" id="20" delimiter2="5006" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="21" delimiter2="5441" delimiter1="0"/>
+    <range_price id_carrier="esse" id="22" delimiter2="9771" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="23" delimiter2="1203" delimiter1="0"/>
+    <range_price id_carrier="esse" id="24" delimiter2="8048" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="25" delimiter2="6479" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="26" delimiter2="3092" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="27" delimiter2="9781" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="28" delimiter2="4983" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="29" delimiter2="3821" delimiter1="0"/>
+    <range_price id_carrier="esse" id="30" delimiter2="8985" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="31" delimiter2="6073" delimiter1="0"/>
+    <range_price id_carrier="esse" id="32" delimiter2="8118" delimiter1="0"/>
+    <range_price id_carrier="esse" id="33" delimiter2="3966" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="34" delimiter2="4046" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="35" delimiter2="9748" delimiter1="0"/>
+    <range_price id_carrier="esse" id="36" delimiter2="2397" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="37" delimiter2="3304" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="38" delimiter2="7259" delimiter1="0"/>
+    <range_price id_carrier="esse" id="39" delimiter2="8881" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="40" delimiter2="7651" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="41" delimiter2="6181" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="42" delimiter2="2547" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="43" delimiter2="3857" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="44" delimiter2="9855" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="45" delimiter2="1022" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="46" delimiter2="9725" delimiter1="0"/>
+    <range_price id_carrier="esse" id="47" delimiter2="5347" delimiter1="0"/>
+    <range_price id_carrier="esse" id="48" delimiter2="6646" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="49" delimiter2="4012" delimiter1="0"/>
+    <range_price id_carrier="aut" id="50" delimiter2="5565" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="51" delimiter2="1822" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="52" delimiter2="3789" delimiter1="0"/>
+    <range_price id_carrier="aut" id="53" delimiter2="4448" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="54" delimiter2="1890" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="55" delimiter2="8172" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="56" delimiter2="2515" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="57" delimiter2="2078" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="58" delimiter2="3062" delimiter1="0"/>
+    <range_price id_carrier="aut" id="59" delimiter2="7357" delimiter1="0"/>
+    <range_price id_carrier="esse" id="60" delimiter2="8165" delimiter1="0"/>
+    <range_price id_carrier="esse" id="61" delimiter2="5391" delimiter1="0"/>
+    <range_price id_carrier="esse" id="62" delimiter2="6043" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="63" delimiter2="6304" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="64" delimiter2="8688" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="65" delimiter2="5666" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="66" delimiter2="2902" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="67" delimiter2="6259" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="68" delimiter2="8033" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="69" delimiter2="9665" delimiter1="0"/>
+    <range_price id_carrier="aut" id="70" delimiter2="2789" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="71" delimiter2="5984" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="72" delimiter2="7921" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="73" delimiter2="1605" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="74" delimiter2="8898" delimiter1="0"/>
+    <range_price id_carrier="esse" id="75" delimiter2="7016" delimiter1="0"/>
+    <range_price id_carrier="aut" id="76" delimiter2="7232" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="77" delimiter2="3780" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="78" delimiter2="3918" delimiter1="0"/>
+    <range_price id_carrier="esse" id="79" delimiter2="8064" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="80" delimiter2="7826" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="81" delimiter2="3852" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="82" delimiter2="3416" delimiter1="0"/>
+    <range_price id_carrier="aut" id="83" delimiter2="4226" delimiter1="0"/>
+    <range_price id_carrier="aut" id="84" delimiter2="6609" delimiter1="0"/>
+    <range_price id_carrier="esse" id="85" delimiter2="4233" delimiter1="0"/>
+    <range_price id_carrier="aut" id="86" delimiter2="4149" delimiter1="0"/>
+    <range_price id_carrier="esse" id="87" delimiter2="7244" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="88" delimiter2="4818" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="89" delimiter2="7811" delimiter1="0"/>
+    <range_price id_carrier="aut" id="90" delimiter2="4693" delimiter1="0"/>
+    <range_price id_carrier="My_carrier" id="91" delimiter2="6999" delimiter1="0"/>
+    <range_price id_carrier="aut" id="92" delimiter2="6036" delimiter1="0"/>
+    <range_price id_carrier="esse" id="93" delimiter2="2255" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="94" delimiter2="9508" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="95" delimiter2="1720" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="96" delimiter2="3111" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="97" delimiter2="2271" delimiter1="0"/>
+    <range_price id_carrier="carrier_1" id="98" delimiter2="2041" delimiter1="0"/>
+    <range_price id_carrier="voluptas" id="99" delimiter2="2687" delimiter1="0"/>
+    <range_price id_carrier="aut" id="100" delimiter2="6968" delimiter1="0"/>
+  </entities>
+</entity_range_price>

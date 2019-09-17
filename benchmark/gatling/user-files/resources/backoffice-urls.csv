@@ -1,0 +1,52 @@
+category,name,location,pauseAfter
+dashboard,Dashboard,/index.php?controller=AdminDashboard,2
+orders,Orders,/index.php?controller=AdminOrders,2
+orders,Invoices,/index.php?controller=AdminInvoices,2
+orders,Slip,/index.php?controller=AdminSlip,2
+orders,DeliverySlip,/index.php?controller=AdminDeliverySlip,2
+orders,Carts,/index.php?controller=AdminCarts,2
+catalog,Product_settings,/index.php/product/catalog,2
+catalog,Categories,/index.php?controller=AdminCategories,2
+catalog,Tracking,/index.php?controller=AdminTracking,2
+catalog,Attributes,/index.php?controller=AdminAttributesGroups,2
+catalog,Manufacturers,/index.php?controller=AdminManufacturers,2
+catalog,Attachments,/index.php?controller=AdminAttachments,2
+catalog,CartRules,/index.php?controller=AdminCartRules,2
+Stocks,Stocks,/index.php/stock/,2
+customers,Customers,/index.php?controller=AdminCustomers,2
+customers,Addresses,/index.php?controller=AdminAddresses,2
+customer service,CustomerThreads,/index.php?controller=AdminCustomerThreads,2
+customer service,OrderMessage,/index.php?controller=AdminOrderMessage,2
+customer service,Return,/index.php?controller=AdminReturn,2
+stats,Stats,/index.php?controller=AdminStats,2
+modules,Modules,/index.php/module/catalog,2
+design,Themes,/index.php?controller=AdminThemes,2
+design,CmsContent,/index.php?controller=AdminCmsContent,2
+design,ModulesPositions,/index.php?controller=AdminModulesPositions,2
+design,LinkWidget,/index.php?controller=AdminLinkWidget,2
+shipping,Carriers,/index.php?controller=AdminCarriers,2
+shipping,Shipping,/index.php?controller=AdminShipping,2
+payment,Payment,/index.php?controller=AdminPayment,2
+payment,PaymentPreferences,/index.php?controller=AdminPaymentPreferences,2
+international,Localization,/index.php?controller=AdminLocalization,2
+international,Zones,/index.php?controller=AdminZones,2
+international,Taxes,/index.php?controller=AdminTaxes,2
+international,Translations,/index.php?controller=AdminTranslations,2
+shop parameters,Preferences,/index.php?controller=AdminPreferences,2
+shop parameters,OrderPreferences,/index.php?controller=AdminOrderPreferences,2
+shop parameters,Preferences,/index.php?controller=AdminPPreferences,2
+shop parameters,CustomerPreferences,/index.php?controller=AdminCustomerPreferences,2
+shop parameters,Contacts,/index.php?controller=AdminContacts,2
+shop parameters,Meta,/index.php?controller=AdminMeta,2
+shop parameters,SearchConf,/index.php?controller=AdminSearchConf,2
+advanced parameters,Performance,/index.php/configure/advanced/performance,2
+advanced parameters,Preferences,/index.php?controller=AdminAdminPreferences,2
+advanced parameters,Emails,/index.php?controller=AdminEmails,2
+advanced parameters,Import,/index.php?controller=AdminImport,2
+advanced parameters,Employees,/index.php?controller=AdminEmployees,2
+advanced parameters,RequestSql,/index.php?controller=AdminRequestSql,2
+advanced parameters,Logs,/index.php?controller=AdminLogs,2
+advanced parameters,Categories,/index.php?controller=AdminBlockblogcategories,2
+advanced parameters,Messages,/index.php?controller=AdminBlockblogposts,2
+advanced parameters,Comments,/index.php?controller=AdminBlockblogcomments,2
+advanced parameters,Stats_clients,/index.php?controller=AdminStatistics,2

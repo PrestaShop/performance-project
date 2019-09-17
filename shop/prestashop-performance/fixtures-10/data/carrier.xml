@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_carrier>
+  <fields id="name" class="Carrier" sql="a.id_carrier &gt; 1">
+    <field name="id_reference"/>
+    <field name="id_tax_rules_group"/>
+    <field name="name"/>
+    <field name="url"/>
+    <field name="active"/>
+    <field name="shipping_handling"/>
+    <field name="range_behavior"/>
+    <field name="is_free"/>
+    <field name="shipping_external"/>
+    <field name="need_range"/>
+    <field name="shipping_method"/>
+    <field name="max_width"/>
+    <field name="max_height"/>
+    <field name="max_depth"/>
+    <field name="grade"/>
+  </fields>
+  <entities>
+    <carrier id="My_carrier" id_reference="2" active="1" shipping_handling="1" range_behaviour="0" is_free="0" shipping_external="0" need_range="0" shipping_method="0" max_width="0" max_height="0" max_depth="0" max_weight="0" grade="0" name="My carrier" url=""/>
+    <carrier id_reference="1" id_tax_rules_group="4" id="ipsam" name="ipsam" url="http://www.buisson.net/minus-necessitatibus-ratione-quia-omnis-perferendis-et-assumenda" active="1" shipping_handling="1" range_behavior="1" is_free="1" shipping_external="0" need_range="0" shipping_method="2" max_width="0" max_height="1" max_depth="89" grade="1"/>
+    <carrier id_reference="2" id_tax_rules_group="5" id="et" name="et" url="http://www.pereira.com/voluptas-laboriosam-unde-ex-beatae-doloremque-eum" active="1" shipping_handling="1" range_behavior="1" is_free="1" shipping_external="0" need_range="0" shipping_method="2" max_width="88" max_height="16" max_depth="93" grade="1"/>
+    <carrier id_reference="3" id_tax_rules_group="2" id="iure" name="iure" url="http://www.peltier.fr/illo-ut-beatae-voluptatum-voluptatem.html" active="1" shipping_handling="0" range_behavior="1" is_free="0" shipping_external="1" need_range="0" shipping_method="0" max_width="43" max_height="97" max_depth="54" grade="4"/>
+  </entities>
+</entity_carrier>

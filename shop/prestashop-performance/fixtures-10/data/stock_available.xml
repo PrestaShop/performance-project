@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_stock_available>
+  <fields primary="id_product, id_product_attribute" class="StockAvailable">
+    <field name="id_stock_available"/>
+    <field name="id_product_attribute" relation="product_attribute"/>
+    <field name="id_product" relation="product"/>
+    <field name="id_shop"/>
+    <field name="id_shop_group"/>
+    <field name="quantity"/>
+    <field name="depends_on_stock"/>
+    <field name="out_of_stock"/>
+  </fields>
+  <entities>
+    <stock_available id_product_attribute="1" id_product="1" id_stock_available="1" quantity="1821" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="2" id_product="1" id_stock_available="2" quantity="46" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="3" id_product="1" id_stock_available="3" quantity="131" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="4" id_product="1" id_stock_available="4" quantity="1975" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="5" id_product="1" id_stock_available="5" quantity="2519" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="6" id_product="2" id_stock_available="6" quantity="1732" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="7" id_product="2" id_stock_available="7" quantity="1829" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="8" id_product="2" id_stock_available="8" quantity="2261" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="9" id_product="2" id_stock_available="9" quantity="1601" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="10" id_product="2" id_stock_available="10" quantity="1392" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="11" id_product="3" id_stock_available="11" quantity="2022" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="12" id_product="3" id_stock_available="12" quantity="520" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="13" id_product="3" id_stock_available="13" quantity="2493" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="14" id_product="3" id_stock_available="14" quantity="1805" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="15" id_product="3" id_stock_available="15" quantity="2931" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="16" id_product="4" id_stock_available="16" quantity="2928" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="17" id_product="4" id_stock_available="17" quantity="2719" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="18" id_product="4" id_stock_available="18" quantity="2141" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="19" id_product="4" id_stock_available="19" quantity="94" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="20" id_product="4" id_stock_available="20" quantity="2782" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="21" id_product="5" id_stock_available="21" quantity="1914" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="22" id_product="5" id_stock_available="22" quantity="2405" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="23" id_product="5" id_stock_available="23" quantity="834" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="24" id_product="5" id_stock_available="24" quantity="290" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="25" id_product="5" id_stock_available="25" quantity="2691" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="26" id_product="6" id_stock_available="26" quantity="873" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="27" id_product="6" id_stock_available="27" quantity="1658" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="28" id_product="6" id_stock_available="28" quantity="1790" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="29" id_product="6" id_stock_available="29" quantity="2760" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="30" id_product="6" id_stock_available="30" quantity="1223" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="31" id_product="7" id_stock_available="31" quantity="2892" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="32" id_product="7" id_stock_available="32" quantity="122" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="33" id_product="7" id_stock_available="33" quantity="39" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="34" id_product="7" id_stock_available="34" quantity="2956" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="35" id_product="7" id_stock_available="35" quantity="2495" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="36" id_product="8" id_stock_available="36" quantity="1069" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="37" id_product="8" id_stock_available="37" quantity="526" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="38" id_product="8" id_stock_available="38" quantity="2120" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="39" id_product="8" id_stock_available="39" quantity="2189" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="40" id_product="8" id_stock_available="40" quantity="2553" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="41" id_product="9" id_stock_available="41" quantity="2644" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="42" id_product="9" id_stock_available="42" quantity="2341" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="43" id_product="9" id_stock_available="43" quantity="1315" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="44" id_product="9" id_stock_available="44" quantity="228" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="45" id_product="9" id_stock_available="45" quantity="2944" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="46" id_product="10" id_stock_available="46" quantity="1741" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="47" id_product="10" id_stock_available="47" quantity="168" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="48" id_product="10" id_stock_available="48" quantity="1782" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="49" id_product="10" id_stock_available="49" quantity="315" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+    <stock_available id_product_attribute="50" id_product="10" id_stock_available="50" quantity="2931" id_shop="1" id_shop_group="0" depends_on_stock="0" out_of_stock="2"/>
+  </entities>
+</entity_stock_available>

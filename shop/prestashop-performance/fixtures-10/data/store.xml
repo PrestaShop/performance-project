@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_store>
+  <fields id="name" class="Store" image="st">
+    <field name="id_country" relation="country"/>
+    <field name="id_state" relation="state"/>
+    <field name="city"/>
+    <field name="postcode"/>
+    <field name="latitude"/>
+    <field name="longitude"/>
+    <field name="phone"/>
+    <field name="fax"/>
+    <field name="email"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <store id_country="TF" id_state="PA" id="magnam" city="Bousquetnec" postcode="82 250" latitude="43.663864" longitude="162.952397" email="tmartineau@dbmail.com" phone="" fax="" active="1"/>
+    <store id_country="SL" id_state="W" id="dolor" city="Julien" postcode="72912" latitude="-28.808468" longitude="136.48399" email="nath.hardy@fleury.fr" phone="" fax="" active="1"/>
+    <store id_country="DZ" id_state="SS" id="temporibus" city="Payet" postcode="06654" latitude="-47.782527" longitude="-162.930062" email="benjamin93@pasquier.fr" phone="" fax="" active="1"/>
+    <store id_country="AM" id_state="SS" id="dolorem" city="Laineboeuf" postcode="26447" latitude="57.153835" longitude="-71.162621" email="llemaire@gmail.com" phone="" fax="" active="1"/>
+    <store id_country="MV" id_state="JP-24" id="quisquam" city="Gomesnec" postcode="68155" latitude="-13.765053" longitude="-121.326383" email="nicolas.robert@maury.fr" phone="" fax="" active="1"/>
+    <store id_country="GB" id_state="GE" id="sit" city="JolyBourg" postcode="44039" latitude="9.885773" longitude="-102.780404" email="leon11@delorme.fr" phone="" fax="" active="1"/>
+    <store id_country="MH" id_state="GR" id="excepturi" city="Lambert-sur-Mer" postcode="62 106" latitude="63.355013" longitude="102.01059" email="julien.monnier@dbmail.com" phone="" fax="" active="1"/>
+    <store id_country="MP" id_state="ID-LA" id="quasi" city="Renaud" postcode="40829" latitude="-41.779927" longitude="29.404236" email="gerard.robin@charrier.fr" phone="" fax="" active="1"/>
+    <store id_country="JE" id_state="PC" id="hic" city="Sanchez" postcode="07233" latitude="-54.462967" longitude="-174.9463" email="guillaume27@voila.fr" phone="" fax="" active="1"/>
+    <store id_country="FK" id_state="VI" id="voluptas" city="Lagardeboeuf" postcode="74 297" latitude="74.391055" longitude="8.36063" email="theophile88@gmail.com" phone="" fax="" active="1"/>
+  </entities>
+</entity_store>

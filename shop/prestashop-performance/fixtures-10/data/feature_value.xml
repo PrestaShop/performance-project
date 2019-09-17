@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_feature_value>
+  <fields class="FeatureValue">
+    <field name="id_feature" relation="feature"/>
+    <field name="custom"/>
+  </fields>
+  <entities>
+    <feature_value id_feature="1" id="1" custom="0"/>
+    <feature_value id_feature="1" id="2" custom="1"/>
+    <feature_value id_feature="1" id="3" custom="1"/>
+    <feature_value id_feature="1" id="4" custom="0"/>
+    <feature_value id_feature="1" id="5" custom="1"/>
+    <feature_value id_feature="2" id="6" custom="0"/>
+    <feature_value id_feature="2" id="7" custom="0"/>
+    <feature_value id_feature="2" id="8" custom="0"/>
+    <feature_value id_feature="2" id="9" custom="0"/>
+    <feature_value id_feature="2" id="10" custom="1"/>
+    <feature_value id_feature="3" id="11" custom="0"/>
+    <feature_value id_feature="3" id="12" custom="0"/>
+    <feature_value id_feature="3" id="13" custom="1"/>
+    <feature_value id_feature="3" id="14" custom="0"/>
+    <feature_value id_feature="3" id="15" custom="0"/>
+    <feature_value id_feature="4" id="16" custom="1"/>
+    <feature_value id_feature="4" id="17" custom="0"/>
+    <feature_value id_feature="4" id="18" custom="0"/>
+    <feature_value id_feature="4" id="19" custom="0"/>
+    <feature_value id_feature="4" id="20" custom="1"/>
+    <feature_value id_feature="5" id="21" custom="0"/>
+    <feature_value id_feature="5" id="22" custom="1"/>
+    <feature_value id_feature="5" id="23" custom="1"/>
+    <feature_value id_feature="5" id="24" custom="0"/>
+    <feature_value id_feature="5" id="25" custom="0"/>
+    <feature_value id_feature="6" id="26" custom="1"/>
+    <feature_value id_feature="6" id="27" custom="1"/>
+    <feature_value id_feature="6" id="28" custom="1"/>
+    <feature_value id_feature="6" id="29" custom="0"/>
+    <feature_value id_feature="6" id="30" custom="1"/>
+    <feature_value id_feature="7" id="31" custom="0"/>
+    <feature_value id_feature="7" id="32" custom="1"/>
+    <feature_value id_feature="7" id="33" custom="0"/>
+    <feature_value id_feature="7" id="34" custom="1"/>
+    <feature_value id_feature="7" id="35" custom="0"/>
+    <feature_value id_feature="8" id="36" custom="0"/>
+    <feature_value id_feature="8" id="37" custom="1"/>
+    <feature_value id_feature="8" id="38" custom="0"/>
+    <feature_value id_feature="8" id="39" custom="0"/>
+    <feature_value id_feature="8" id="40" custom="1"/>
+    <feature_value id_feature="9" id="41" custom="1"/>
+    <feature_value id_feature="9" id="42" custom="1"/>
+    <feature_value id_feature="9" id="43" custom="0"/>
+    <feature_value id_feature="9" id="44" custom="1"/>
+    <feature_value id_feature="9" id="45" custom="1"/>
+    <feature_value id_feature="10" id="46" custom="1"/>
+    <feature_value id_feature="10" id="47" custom="0"/>
+    <feature_value id_feature="10" id="48" custom="0"/>
+    <feature_value id_feature="10" id="49" custom="1"/>
+    <feature_value id_feature="10" id="50" custom="1"/>
+  </entities>
+</entity_feature_value>

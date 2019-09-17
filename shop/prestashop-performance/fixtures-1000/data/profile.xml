@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_profile>
+  <fields id="name" class="Profile" sql="a.id_profile &gt; 1"/>
+  <entities>
+    <profile id="Logistician"/>
+    <profile id="Translator"/>
+    <profile id="Salesman"/>
+    <profile id="explicabo"/>
+    <profile id="sit"/>
+    <profile id="consequatur"/>
+    <profile id="dignissimos"/>
+    <profile id="earum"/>
+    <profile id="repellat"/>
+    <profile id="dicta"/>
+    <profile id="voluptas"/>
+    <profile id="et"/>
+    <profile id="dolor"/>
+  </entities>
+</entity_profile>

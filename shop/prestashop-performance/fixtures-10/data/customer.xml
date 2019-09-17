@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_customer>
+  <fields class="Customer">
+    <field name="id_gender" relation="gender"/>
+    <field name="id_default_group"/>
+    <field name="firstname"/>
+    <field name="lastname"/>
+    <field name="email"/>
+    <field name="passwd"/>
+    <field name="last_passwd_gen"/>
+    <field name="birthday"/>
+    <field name="newsletter"/>
+    <field name="ip_registration_newsletter"/>
+    <field name="newsletter_date_add"/>
+    <field name="optin"/>
+    <field name="secure_key"/>
+    <field name="note"/>
+    <field name="active"/>
+    <field name="is_guest"/>
+  </fields>
+  <entities>
+    <customer id_gender="Mrs" id="1" id_default_group="1" firstname="Théophile" lastname="Godard" email="jules45@club-internet.fr" passwd="bdd4218747454ef99d31f711eae9228a" last_passwd_gen="1983-08-26 12:10:08" birthday="1997-10-08" newsletter="1" ip_registration_newsletter="95.201.115.120" newsletter_date_add="1984-03-03" optin="1" secure_key="4010fd68b2c51190f10ad9f1ef9c441a" note="Quia quis nobis quam veniam ut tempora perferendis libero. Vel ipsum non sunt earum ut fuga. Velit magnam voluptatem ipsum repudiandae. Nihil sed totam doloremque quam." active="1" is_guest="0"/>
+    <customer id_gender="Mrs" id="2" id_default_group="1" firstname="Maryse" lastname="Gosselin" email="charles04@lemonnier.com" passwd="1f8a0871b66b10ab7eed22f0666819da" last_passwd_gen="1998-01-15 15:25:00" birthday="2013-09-21" newsletter="1" ip_registration_newsletter="221.208.68.35" newsletter_date_add="2007-05-25" optin="1" secure_key="febf796d108f012693fc81f228c3fc6c" note="Deserunt debitis et est distinctio. Quo nostrum dolorem commodi voluptas non." active="1" is_guest="0"/>
+    <customer id_gender="Mr" id="3" id_default_group="3" firstname="Nicolas" lastname="Lecomte" email="cohen.julie@gautier.com" passwd="d1f38ccb0603a01d771e59eac11d54b4" last_passwd_gen="1998-07-03 04:21:59" birthday="1985-04-09" newsletter="1" ip_registration_newsletter="161.36.192.139" newsletter_date_add="1990-03-08" optin="1" secure_key="9d969ff839e6cc5f168bb4c179be5aa9" note="Eveniet ea id voluptas iste quia ratione. Itaque corrupti iste incidunt sunt ipsum porro excepturi. Quia quisquam et tenetur architecto maiores." active="0" is_guest="0"/>
+    <customer id_gender="Mr" id="4" id_default_group="1" firstname="Jean" lastname="Allard" email="jean.guilbert@bouygtel.fr" passwd="baf25e4be9f8f8e391ea7906f6bba34d" last_passwd_gen="1995-11-17 04:59:37" birthday="1971-01-09" newsletter="1" ip_registration_newsletter="168.169.187.18" newsletter_date_add="2012-08-25" optin="1" secure_key="df1aab9ccb10277797a63da4e3990060" note="Voluptate officiis iure dolor sunt nesciunt eos hic dolores. Tempora iure quibusdam est ea facere cumque. Optio quo et modi voluptas id tempore voluptatem sit." active="0" is_guest="0"/>
+    <customer id_gender="Mr" id="5" id_default_group="3" firstname="Arnaude" lastname="Leclerc" email="rey.ines@germain.com" passwd="ec512bff1dcedc6b2bbb3f3557158d11" last_passwd_gen="2012-01-16 08:30:29" birthday="1986-10-13" newsletter="1" ip_registration_newsletter="3.107.181.18" newsletter_date_add="2004-06-10" optin="1" secure_key="2c57d21256dbe00c314100bd9604bf3b" note="Dolor saepe numquam ut maxime rerum est sint sint. Est magnam eum quam explicabo hic. Impedit maiores qui omnis quos. Nobis non alias ullam molestias." active="1" is_guest="0"/>
+    <customer id_gender="Mr" id="6" id_default_group="1" firstname="Victor" lastname="Dubois" email="xavier36@lecoq.com" passwd="479bf509f152d96aaaaecccfcb4f3703" last_passwd_gen="1995-08-17 11:58:37" birthday="2011-10-17" newsletter="1" ip_registration_newsletter="127.3.69.202" newsletter_date_add="1976-10-12" optin="1" secure_key="d98bb31e465211d3107de6f767957b17" note="Sapiente voluptas nesciunt culpa mollitia dolores et atque. Reiciendis rerum eveniet architecto alias atque sed non. Temporibus autem quo quaerat quos." active="1" is_guest="0"/>
+    <customer id_gender="Mrs" id="7" id_default_group="2" firstname="Éléonore" lastname="Philippe" email="edouard.clement@rossi.com" passwd="820596ca2ab145def45846cb0986685f" last_passwd_gen="1993-03-18 19:37:54" birthday="1974-07-01" newsletter="1" ip_registration_newsletter="250.84.11.84" newsletter_date_add="1984-06-01" optin="1" secure_key="36add30b392a135ee7cfa52c1478a345" note="Tenetur similique aut eius blanditiis rerum. Odit et ipsam veniam. Similique dicta error dolores optio." active="1" is_guest="0"/>
+    <customer id_gender="Mrs" id="8" id_default_group="3" firstname="Benoît" lastname="Bernard" email="georges92@perrot.net" passwd="262011f98648ededa5c7f46253a74776" last_passwd_gen="1984-08-07 18:16:41" birthday="2006-03-21" newsletter="0" ip_registration_newsletter="139.147.244.54" newsletter_date_add="1972-07-20" optin="1" secure_key="8da2958a87a1ab0dac1279ec433f9d51" note="Praesentium deleniti maiores nam et quia hic sapiente distinctio. Neque repellendus impedit in. Saepe non rem eos quia quo ab explicabo. Voluptas consequatur consequuntur iure veniam provident sit." active="1" is_guest="0"/>
+    <customer id_gender="Mr" id="9" id_default_group="1" firstname="Dorothée" lastname="Barbier" email="hpoirier@lemoine.com" passwd="cc36a283180734292d92919f66fb8c58" last_passwd_gen="1998-09-02 15:18:09" birthday="1988-07-26" newsletter="1" ip_registration_newsletter="163.11.137.235" newsletter_date_add="2019-04-08" optin="1" secure_key="a174d2cd1560efffd54b3e914f013c11" note="Nisi tenetur quae repudiandae sit. Assumenda quasi animi qui qui eos eos. Molestiae est quis corporis necessitatibus quo." active="1" is_guest="1"/>
+    <customer id_gender="Mr" id="10" id_default_group="3" firstname="Charlotte" lastname="Gauthier" email="bsamson@ledoux.fr" passwd="062ca5e2515c6ae9dc842a1ab35a9e0c" last_passwd_gen="2002-04-11 08:36:15" birthday="2016-04-04" newsletter="1" ip_registration_newsletter="134.174.227.35" newsletter_date_add="1983-12-26" optin="1" secure_key="55bdb36bb39197e7cd9d3bcd420dcb3a" note="Non unde non aspernatur dolor sequi. Iusto qui error modi asperiores labore omnis. Corrupti qui atque pariatur totam dolorem sequi. Sit corporis ut voluptate ut nemo quo." active="1" is_guest="0"/>
+  </entities>
+</entity_customer>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_connections>
+  <fields class="Connection">
+    <field name="id_guest" relation="guest"/>
+    <field name="id_page"/>
+    <field name="ip_address"/>
+    <field name="http_referer"/>
+    <field name="id_shop_group"/>
+    <field name="id_shop"/>
+  </fields>
+  <entities>
+    <connections id_guest="7" id="1" id_page="79" ip_address="516378" http_referer="http://couturier.com/in-fuga-exercitationem-quia-provident-ut-non-ea.html" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="5" id="2" id_page="93" ip_address="48296" http_referer="http://ruiz.org/" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="1" id="3" id_page="99" ip_address="997430" http_referer="http://philippe.fr/suscipit-rem-quae-consequatur-distinctio-quos" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="5" id="4" id_page="47" ip_address="703336" http_referer="http://legall.net/ut-commodi-quia-aut-voluptas.html" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="10" id="5" id_page="18" ip_address="858563" http_referer="https://www.martel.fr/odit-veritatis-a-recusandae-aliquid-voluptatem-itaque-dicta" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="8" id="6" id_page="48" ip_address="609053" http_referer="https://www.pages.fr/eveniet-id-possimus-consequatur-illum-fuga-temporibus-dolorum-nesciunt" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="7" id="7" id_page="76" ip_address="983756" http_referer="http://peron.com/" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="7" id="8" id_page="28" ip_address="528368" http_referer="http://www.martinez.net/deserunt-quaerat-magni-nobis" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="5" id="9" id_page="21" ip_address="473596" http_referer="https://gauthier.fr/totam-eos-placeat-atque-eum.html" id_shop_group="1" id_shop="1"/>
+    <connections id_guest="5" id="10" id_page="84" ip_address="352878" http_referer="http://goncalves.com/" id_shop_group="1" id_shop="1"/>
+  </entities>
+</entity_connections>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_supplier>
+  <fields id="name" class="Supplier" image="su">
+    <field name="name"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <supplier id="veritatis totam" name="veritatis totam" active="1"/>
+    <supplier id="dolores qui" name="dolores qui" active="1"/>
+    <supplier id="non corporis" name="non corporis" active="1"/>
+    <supplier id="molestiae et" name="molestiae et" active="1"/>
+    <supplier id="nam atque" name="nam atque" active="1"/>
+    <supplier id="at dolor" name="at dolor" active="1"/>
+    <supplier id="aliquid qui" name="aliquid qui" active="1"/>
+    <supplier id="labore hic" name="labore hic" active="1"/>
+    <supplier id="cumque molestiae" name="cumque molestiae" active="1"/>
+    <supplier id="laudantium et" name="laudantium et" active="1"/>
+  </entities>
+</entity_supplier>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_carrier_zone>
+  <fields primary="id_carrier, id_zone" sql="a.id_carrier &gt; 1">
+    <field name="id_carrier" relation="carrier"/>
+    <field name="id_zone" relation="zone"/>
+  </fields>
+  <entities>
+    <carrier_zone id_carrier="carrier_1" id_zone="Europe" id="1"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Europe" id="2"/>
+    <carrier_zone id_carrier="esse" id_zone="Europe" id="3"/>
+    <carrier_zone id_carrier="aut" id_zone="Europe" id="4"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Europe" id="5"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="North_America" id="6"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="North_America" id="7"/>
+    <carrier_zone id_carrier="esse" id_zone="North_America" id="8"/>
+    <carrier_zone id_carrier="aut" id_zone="North_America" id="9"/>
+    <carrier_zone id_carrier="voluptas" id_zone="North_America" id="10"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="Asia" id="11"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Asia" id="12"/>
+    <carrier_zone id_carrier="esse" id_zone="Asia" id="13"/>
+    <carrier_zone id_carrier="aut" id_zone="Asia" id="14"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Asia" id="15"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="Africa" id="16"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Africa" id="17"/>
+    <carrier_zone id_carrier="esse" id_zone="Africa" id="18"/>
+    <carrier_zone id_carrier="aut" id_zone="Africa" id="19"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Africa" id="20"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="Oceania" id="21"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Oceania" id="22"/>
+    <carrier_zone id_carrier="esse" id_zone="Oceania" id="23"/>
+    <carrier_zone id_carrier="aut" id_zone="Oceania" id="24"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Oceania" id="25"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="South_America" id="26"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="South_America" id="27"/>
+    <carrier_zone id_carrier="esse" id_zone="South_America" id="28"/>
+    <carrier_zone id_carrier="aut" id_zone="South_America" id="29"/>
+    <carrier_zone id_carrier="voluptas" id_zone="South_America" id="30"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="Europe_out_E_U" id="31"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Europe_out_E_U" id="32"/>
+    <carrier_zone id_carrier="esse" id_zone="Europe_out_E_U" id="33"/>
+    <carrier_zone id_carrier="aut" id_zone="Europe_out_E_U" id="34"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Europe_out_E_U" id="35"/>
+    <carrier_zone id_carrier="carrier_1" id_zone="Central_America_Antilla" id="36"/>
+    <carrier_zone id_carrier="My_carrier" id_zone="Central_America_Antilla" id="37"/>
+    <carrier_zone id_carrier="esse" id_zone="Central_America_Antilla" id="38"/>
+    <carrier_zone id_carrier="aut" id_zone="Central_America_Antilla" id="39"/>
+    <carrier_zone id_carrier="voluptas" id_zone="Central_America_Antilla" id="40"/>
+  </entities>
+</entity_carrier_zone>

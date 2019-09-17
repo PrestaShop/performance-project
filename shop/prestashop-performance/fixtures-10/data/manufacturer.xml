@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_manufacturer>
+  <fields id="name" class="Manufacturer" image="m">
+    <field name="name"/>
+    <field name="active"/>
+  </fields>
+  <entities>
+    <manufacturer id="laboriosam dolorum" name="laboriosam dolorum" active="1"/>
+    <manufacturer id="qui placeat" name="qui placeat" active="1"/>
+    <manufacturer id="accusantium molestiae" name="accusantium molestiae" active="1"/>
+    <manufacturer id="ratione tenetur" name="ratione tenetur" active="1"/>
+    <manufacturer id="assumenda accusantium" name="assumenda accusantium" active="1"/>
+    <manufacturer id="repudiandae nemo" name="repudiandae nemo" active="1"/>
+    <manufacturer id="eligendi id" name="eligendi id" active="1"/>
+    <manufacturer id="ab tempore" name="ab tempore" active="1"/>
+    <manufacturer id="quibusdam in" name="quibusdam in" active="1"/>
+    <manufacturer id="ut excepturi" name="ut excepturi" active="1"/>
+  </entities>
+</entity_manufacturer>

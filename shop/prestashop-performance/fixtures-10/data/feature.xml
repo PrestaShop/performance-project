@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_feature>
+  <fields class="Feature">
+    <field name="position"/>
+  </fields>
+  <entities>
+    <feature id="1" position="80"/>
+    <feature id="2" position="54"/>
+    <feature id="3" position="78"/>
+    <feature id="4" position="38"/>
+    <feature id="5" position="48"/>
+    <feature id="6" position="69"/>
+    <feature id="7" position="72"/>
+    <feature id="8" position="27"/>
+    <feature id="9" position="5"/>
+    <feature id="10" position="81"/>
+  </entities>
+</entity_feature>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_category_group>
+  <fields primary="id_category, id_group">
+    <field name="id_category" relation="category"/>
+    <field name="id_group" relation="group"/>
+  </fields>
+  <entities>
+    <category_group id_category="Root" id_group="Visitor" id="1"/>
+    <category_group id_category="Home" id_group="Visitor" id="2"/>
+    <category_group id_category="quo" id_group="Visitor" id="3"/>
+    <category_group id_category="eligendi" id_group="Visitor" id="4"/>
+    <category_group id_category="aspernatur" id_group="Visitor" id="5"/>
+    <category_group id_category="maiores" id_group="Visitor" id="6"/>
+    <category_group id_category="quod" id_group="Visitor" id="7"/>
+    <category_group id_category="cumque" id_group="Visitor" id="8"/>
+    <category_group id_category="occaecati" id_group="Visitor" id="9"/>
+    <category_group id_category="eos" id_group="Visitor" id="10"/>
+    <category_group id_category="voluptatem" id_group="Visitor" id="11"/>
+    <category_group id_category="non" id_group="Visitor" id="12"/>
+    <category_group id_category="Root" id_group="Guest" id="13"/>
+    <category_group id_category="Home" id_group="Guest" id="14"/>
+    <category_group id_category="quo" id_group="Guest" id="15"/>
+    <category_group id_category="eligendi" id_group="Guest" id="16"/>
+    <category_group id_category="aspernatur" id_group="Guest" id="17"/>
+    <category_group id_category="maiores" id_group="Guest" id="18"/>
+    <category_group id_category="quod" id_group="Guest" id="19"/>
+    <category_group id_category="cumque" id_group="Guest" id="20"/>
+    <category_group id_category="occaecati" id_group="Guest" id="21"/>
+    <category_group id_category="eos" id_group="Guest" id="22"/>
+    <category_group id_category="voluptatem" id_group="Guest" id="23"/>
+    <category_group id_category="non" id_group="Guest" id="24"/>
+    <category_group id_category="Root" id_group="Customer" id="25"/>
+    <category_group id_category="Home" id_group="Customer" id="26"/>
+    <category_group id_category="quo" id_group="Customer" id="27"/>
+    <category_group id_category="eligendi" id_group="Customer" id="28"/>
+    <category_group id_category="aspernatur" id_group="Customer" id="29"/>
+    <category_group id_category="maiores" id_group="Customer" id="30"/>
+    <category_group id_category="quod" id_group="Customer" id="31"/>
+    <category_group id_category="cumque" id_group="Customer" id="32"/>
+    <category_group id_category="occaecati" id_group="Customer" id="33"/>
+    <category_group id_category="eos" id_group="Customer" id="34"/>
+    <category_group id_category="voluptatem" id_group="Customer" id="35"/>
+    <category_group id_category="non" id_group="Customer" id="36"/>
+  </entities>
+</entity_category_group>

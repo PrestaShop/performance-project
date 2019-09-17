@@ -1,0 +1,5 @@
+category,name,pauseAfterEachStep,productId,quantity,genderId,firstName,lastName,address1,address2,postCode,city,countryId
+FO index,index,1,1,5,1,firstNameA,lastNameA,address1,address2,75009,Paris,8
+FO index,index,11,2,1,1,firstNameB,lastNameB,address1,address2,75009,Paris,8
+FO index,index,7,3,4,1,firstNameC,lastNameC,address1,address2,75009,Paris,8
+FO index,index,3,4,21,1,firstNameD,lastNameD,address1,address2,75009,Paris,8

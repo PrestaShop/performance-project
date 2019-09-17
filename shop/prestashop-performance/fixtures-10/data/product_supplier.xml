@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_product_supplier>
+  <fields class="ProductSupplier">
+    <field name="id_product" relation="product"/>
+    <field name="id_product_attribute" relation="product_attribute"/>
+    <field name="id_supplier" relation="supplier"/>
+    <field name="product_supplier_reference"/>
+    <field name="product_supplier_price_te"/>
+  </fields>
+  <entities>
+    <product_supplier id_product="1" id_product_attribute="38" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="24" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="27" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="46" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="20" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="28" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="36" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="3" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="37" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="1" id_product_attribute="37" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="39" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="5" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="11" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="13" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="7" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="25" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="8" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="28" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="33" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="2" id_product_attribute="12" id_supplier="at dolor" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="17" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="20" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="4" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="46" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="30" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="37" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="29" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="3" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="26" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="3" id_product_attribute="49" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="43" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="42" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="46" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="24" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="40" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="36" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="3" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="9" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="44" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="4" id_product_attribute="15" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="5" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="25" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="16" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="27" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="40" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="11" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="5" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="24" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="27" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="5" id_product_attribute="47" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="34" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="49" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="36" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="32" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="21" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="43" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="25" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="49" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="20" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="6" id_product_attribute="20" id_supplier="aliquid qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="36" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="44" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="25" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="6" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="26" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="33" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="12" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="40" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="19" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="7" id_product_attribute="22" id_supplier="nam atque" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="3" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="28" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="35" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="40" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="37" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="18" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="35" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="42" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="28" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="8" id_product_attribute="19" id_supplier="dolores qui" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="26" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="7" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="36" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="38" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="48" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="21" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="3" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="11" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="20" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="9" id_product_attribute="12" id_supplier="molestiae et" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="19" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="4" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="2" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="24" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="30" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="12" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="19" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="13" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="34" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+    <product_supplier id_product="10" id_product_attribute="45" id_supplier="non corporis" product_supplier_reference="" product_supplier_price_te="0"/>
+  </entities>
+</entity_product_supplier>
