@@ -3,9 +3,7 @@ set -e
 
 dir="$(cd "$(dirname "$0")"; pwd)"
 
-docker run -it --rm -v \
-    $dir/conf:/opt/gatling/conf \
-    -v $dir/user-files:/opt/gatling/user-files \
+docker run -it --rm \
     -v $dir/results:/opt/gatling/results \
     -e JAVA_OPTS="-DusersCount=10
                   -DcustomersCount=2
@@ -16,6 +14,6 @@ docker run -it --rm -v \
                   -DadminUser=admin@prestashop.com
                   -DadminPassword=admin" \
     --add-host=sandbox.prestashop.com:192.168.0.4 \
-    prestashop/gatling \
+    prestashop/performance-gatling \
     -s LoadSimulation
 
