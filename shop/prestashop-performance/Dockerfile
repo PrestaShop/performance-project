@@ -4,18 +4,12 @@ COPY entrypoint.sh /tmp/
 COPY install.sh /tmp/
 COPY run.sh /tmp/
 RUN rm -rf /var/www/html/install/fixtures/fashion/*
-COPY --chown=www-data:www-data fixtures-10 /var/www/html/install/fixtures/fixtures-10
-COPY --chown=www-data:www-data fixtures-1000 /var/www/html/install/fixtures/fixtures-1000
-COPY --chown=www-data:www-data settings.inc.php /var/www/html/config/
 
-ENV DB_SERVER ""
-ENV DB_PORT "3306"
-ENV DB_NAME ""
-ENV DB_USER ""
-ENV DB_PASSWD ""
-#ENV PS_INSTALL_AUTO "1"
-ENV PS_DOMAIN ""
-ENV PS_FOLDER_ADMIN ""
+COPY --chown=www-data:www-data fixtures-10 /opt/fixtures-10
+COPY --chown=www-data:www-data fixtures-1000 /opt/fixtures-1000
+
+COPY --chown=www-data:www-data settings.inc.php /opt/
+
 ENV PHP_CMD ""
 
 CMD ["/tmp/entrypoint.sh"]
