@@ -61,13 +61,11 @@ if [ ! -f ./config/settings.inc.php  ]; then
 			if [ $DB_PASSWD = "" ]; then
 				echo "\n* Dropping existing database $DB_NAME..."
 		    		mysql -h $DB_SERVER -P $DB_PORT -u $DB_USER -p$DB_PASSWD -e "drop database if exists $DB_NAME;"
-#				mysqladmin -h $DB_SERVER -P $DB_PORT -u $DB_USER drop $DB_NAME -p$DB_PASSWD --force;
 				echo "\n* Creating database $DN_NAME..."
 				mysqladmin -h $DB_SERVER -P $DB_PORT -u $DB_USER create $DB_NAME -p$DB_PASSWD --force;
 			else
 				echo "\n* Dropping existing database $DB_NAME..."
 		    		mysql -h $DB_SERVER -P $DB_PORT -u $DB_USER -p$DB_PASSWD -e "drop database if exists $DB_NAME;"
-#				mysqladmin -h $DB_SERVER -P $DB_PORT -u $DB_USER -p$DB_PASSWD drop $DB_NAME --force;
 				echo "\n* Creating database $DN_NAME..."
 				mysqladmin -h $DB_SERVER -P $DB_PORT -u $DB_USER -p$DB_PASSWD create $DB_NAME --force;
 			fi
@@ -92,6 +90,20 @@ else
     echo "\n* Pretashop Core already installed...";
 fi
 
-echo "\n* Almost ! Starting web server now\n";
-exec apache2-foreground
 
+if [ $PS_CANONICAL_REDIRECT_DISABLE = 1 ]
+then
+	echo "\n* Disabling URL redirect"
+	sed -i -e 's/OR su.domain_ssl =/OR su.domain LIKE "%" OR su.domain_ssl =/g' /var/www/html/classes/shop/Shop.php
+	mysql -h $DB_SERVER -P $DB_PORT -b $DB_NAME -u $DB_USER -p$DB_PASSWD -e "UPDATE ps_configuration SET value = '0' WHERE name = 'PS_CANONICAL_REDIRECT';"
+fi
+
+echo "\n* Almost ! Starting web server now\n";
+
+echo "Starting web server..."
+# here we run cache warmup into parallel processes with apache one, keeping it running in foreground
+sleep 5 && echo "Warming up FO cache...\n" && wget -t 5 http://localhost/index.php? && echo "FO cache warming done\n" &
+sleep 6 && echo "Warming up BO cache...\n" && wget -t 5 http://localhost/${PS_FOLDER_ADMIN}/index.php?controller=AdminLogin && echo "BO cache warming done\n" &
+
+# run apache foreground
+_TOKEN_=disabled exec apache2-foreground
