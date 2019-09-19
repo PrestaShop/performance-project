@@ -2,9 +2,14 @@
 # use it if you want to customize prestashop install
 set -e
 
+# init /var/www/html if empty
+cp -n -R -p /tmp/data-ps/prestashop/* /var/www/html
+cp -n -p /tmp/defines_custom.inc.php /var/www/html/config/defines_custom.inc.php
+
 ########################
 # copy fixture folder if required
 if [ "${FIXTURE_FOLDER}" != "" ]; then
+    rm -rf /var/www/html/install/fixtures/fashion/*
 	  cp -R /var/www/html/install/fixtures/"${FIXTURE_FOLDER}"/* /var/www/html/install/fixtures/fashion/
 fi
 
