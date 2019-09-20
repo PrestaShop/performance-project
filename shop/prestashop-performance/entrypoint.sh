@@ -15,18 +15,15 @@ if [ ! -f ./config/settings.inc.php  ]; then
 
 	cp -n -p /tmp/defines_custom.inc.php /var/www/html/config/defines_custom.inc.php
 
-        if [ "${FIXTURE_FOLDER}" != "" ]
-        then
-                echo "\n* Pushing custom fixtures from ${FIXTURE_FOLDER}..."
-                rm -rf /var/www/html/install/fixtures/fashion/
-                mkdir -p  /var/www/html/install/fixtures/fashion/
-                cp -R /opt/"${FIXTURE_FOLDER}"/* /var/www/html/install/fixtures/fashion/
-                sed -i -e 's/dni=""/dni="11111111"/g' /var/www/html/install/fixtures/fashion/data/address.xml
-        else
-                echo "\n* No Fixture variable found..."
-                echo ${FIXTURE_FOLDER}
-        fi
-
+	if [ -d /tmp/pre-install-scripts/ ]; then
+		echo "\n* Running pre-install script(s)..." 
+		 
+		for i in `ls /tmp/pre-install-scripts/`;do
+			/tmp/pre-install-scripts/$i
+		done
+	else
+		echo "\n* No pre-install script found, let's continue..."
+	fi
 
 	if [ $PS_FOLDER_INSTALL != "install" ]; then
 		echo "\n* Renaming install folder as $PS_FOLDER_INSTALL ...";
@@ -86,24 +83,33 @@ if [ ! -f ./config/settings.inc.php  ]; then
 			echo 'warning: PrestaShop installation failed.'
 		fi
 	fi
+
+        if [ -d /tmp/post-install-scripts/ ]; then
+                echo "\n* Running post-install script(s)..." 
+
+                for i in `ls /tmp/post-install-scripts/`;do
+                        /tmp/post-install-scripts/$i
+                done
+        else
+                echo "\n* No post-install script found, let's continue..."
+        fi
 else
     echo "\n* Pretashop Core already installed...";
 fi
 
 
-if [ $PS_CANONICAL_REDIRECT_DISABLE = 1 ]
-then
-	echo "\n* Disabling URL redirect"
-	sed -i -e 's/OR su.domain_ssl =/OR su.domain LIKE "%" OR su.domain_ssl =/g' /var/www/html/classes/shop/Shop.php
-	mysql -h $DB_SERVER -P $DB_PORT -b $DB_NAME -u $DB_USER -p$DB_PASSWD -e "UPDATE ps_configuration SET value = '0' WHERE name = 'PS_CANONICAL_REDIRECT';"
-fi
-
 echo "\n* Almost ! Starting web server now\n";
 
-echo "Starting web server..."
-# here we run cache warmup into parallel processes with apache one, keeping it running in foreground
-sleep 5 && echo "Warming up FO cache...\n" && wget -t 5 http://localhost/index.php? && echo "FO cache warming done\n" &
-sleep 6 && echo "Warming up BO cache...\n" && wget -t 5 http://localhost/${PS_FOLDER_ADMIN}/index.php?controller=AdminLogin && echo "BO cache warming done\n" &
+        if [ -d /tmp/init-scripts/ ]; then
+                echo "\n* Running init script(s)..." 
 
+                for i in `ls /tmp/init-scripts/`;do
+                        /tmp/init-scripts/$i
+                done
+        else
+                echo "\n* No init script found, let's continue..."
+        fi
+
+echo "\n* Starting web server..."
 # run apache foreground
 _TOKEN_=disabled exec apache2-foreground
