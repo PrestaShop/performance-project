@@ -1,11 +1,8 @@
 FROM prestashop/prestashop:1.7
 
-COPY entrypoint.sh /tmp/
 COPY pre-install-scripts/* /tmp/pre-install-scripts/
 COPY post-install-scripts/* /tmp/post-install-scripts/
 COPY init-scripts/* /tmp/init-scripts/
 
 COPY --chown=www-data:www-data fixtures-10 /opt/fixtures-10
 COPY --chown=www-data:www-data fixtures-1000 /opt/fixtures-1000
-
-CMD ["/tmp/entrypoint.sh"]
