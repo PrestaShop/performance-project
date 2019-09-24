@@ -9,7 +9,7 @@
 		cp -R /opt/"${PS_CUSTOM_FIXTURES_FOLDER}"/* /var/www/html/install/fixtures/fashion/
 		## since DNI is a mandatory field for addresses in some country, this replacement fixes missing DNI from shop-creator fixture generation
 		sed -i -e 's/dni=""/dni="11111111"/g' /var/www/html/install/fixtures/fashion/data/address.xml
-		else
+	else
 		echo ""
 		echo " => No Fixture variable found..."
 	fi
