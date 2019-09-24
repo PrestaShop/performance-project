@@ -39,6 +39,7 @@ docker run \
     -e PS_DOMAIN=localhost:8080\
     -e PS_FOLDER_ADMIN=admin1234\
     -e PS_ERASE_DB=1 \
+    -e PS_CANONICAL_REDIRECT_DISABLE=1 \
     -e DB_SERVER=host.docker.internal\
     -e DB_PORT=3306\
     -e DB_NAME=prestashop_bench \
