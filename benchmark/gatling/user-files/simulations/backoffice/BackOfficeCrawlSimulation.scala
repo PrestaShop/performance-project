@@ -16,11 +16,11 @@ object BackOfficeCrawlSimulation {
   val pageFeeder = csv("/opt/gatling/user-files/resources/backoffice-urls.csv").circular
 
   val browseBO = scenario("Browse BO")
-    .exec(http("backoffice index")
+    .exec(http("BackOfficeCrawl " + "backoffice index")
         .get(httpBaseUrlBO + "/index.php?controller=AdminLogin"))
         .pause(2)
     // admin authentication
-    .exec(http("authenticate")
+    .exec(http("BackOfficeCrawl " + "authenticate")
       .post(httpBaseUrlBO + "/index.php?rand=1568639660308")
       .headers(headers)
       .formParam("ajax", "1")
@@ -35,7 +35,7 @@ object BackOfficeCrawlSimulation {
     // repeat will loop into csv feeder, each time it loads only one page
     .repeat(30) {
       feed(pageFeeder)
-      .exec(http("${name}")
+      .exec(http("BackOfficeCrawl " + "${name}")
         .get(httpBaseUrlBO + "${location}"))
         .pause("${pauseAfter}")
     }

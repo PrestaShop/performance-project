@@ -20,11 +20,11 @@ object BackOfficeRandomCrawlSimulation {
   def randomPageCount() = 20 + scala.util.Random.nextInt(30)
 
   val browseBO = scenario("Browse BO random")
-    .exec(http("backoffice index")
+    .exec(http("BackOfficeRandomCrawl " + "backoffice index")
         .get(httpBaseUrlBO + "/index.php?controller=AdminLogin"))
         .pause(2)
     // admin authentication
-    .exec(http("authenticate")
+    .exec(http("BackOfficeRandomCrawl " + "authenticate")
       .post(httpBaseUrlBO + "/index.php?rand=1524833450885")
       .headers(headers)
       .formParam("ajax", "1")
@@ -39,7 +39,7 @@ object BackOfficeRandomCrawlSimulation {
     // loop over 50 random pages on the BO
     .repeat(randomPageCount()) {
       feed(pageFeeder)
-      .exec(http("${name}")
+      .exec(http("BackOfficeRandomCrawl " + "${name}")
         .get(httpBaseUrlBO + "${location}"))
         .pause(randomPauseDuration())
     }

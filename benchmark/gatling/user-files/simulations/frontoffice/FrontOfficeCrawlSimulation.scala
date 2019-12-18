@@ -8,9 +8,9 @@ object FrontOfficeCrawlSimulation {
 
   val browseFO = scenario("Browse FO")
     // repeat will loop into csv feeder, each time it loads only one page
-    .repeat(10) {
+    .repeat(15) {
       feed(pageFeeder)
-      .exec(http("${name}")
+      .exec(http("FrontOfficeCrawl " + "${name}")
         .get(httpBaseUrlFO + "${location}"))
         .pause("${pauseAfter}")
     }

@@ -1,19 +1,81 @@
 #!/bin/sh
 set -e
 
+# INIT
+
+if [ -z "$SIMULATION_NAME" ]
+then
+  export SIMULATION_NAME=""
+fi
+
+if [ -z "$USER_COUNT" ]
+then
+  export USER_COUNT=1
+fi
+
+if [ -z "$CUSTOMER_COUNT" ]
+then
+  export CUSTOMER_COUNT=1
+fi
+
+if [ -z "$ADMIN_COUNT" ]
+then
+  export ADMIN_COUNT=1
+fi
+
+if [ -z "$RAMP_DURATION" ]
+then
+  export RAMP_DURATION=10
+fi
+
 dir="$(cd "$(dirname "$0")"; pwd)"
 
+# PRINT PARAMETERS
+
+echo "Running gatling"
+echo "NAME: $SIMULATION_NAME"
+echo "URL: $SHOP_URL"
+echo "USER_COUNT: $USER_COUNT"
+echo "CUSTOMER_COUNT: $CUSTOMER_COUNT"
+echo "ADMIN_COUNT: $ADMIN_COUNT"
+echo "RAMP_DURATION: $RAMP_DURATION"
+
+# RUN SIMULATION
+
+export START=$(date +"%Y-%m-%d %T")
+
 docker run -it --rm \
+    -v $dir/user-files:/opt/gatling/user-files \
+    -v $dir/conf:/opt/gatling/conf \
     -v $dir/results:/opt/gatling/results \
-    -e JAVA_OPTS="-DusersCount=10
-                  -DcustomersCount=2
-                  -DadminsCount=2
-                  -DrampDurationInSeconds=60
-                  -DhttpBaseUrlFO=http://sandbox.prestashop.com:8080
-                  -DhttpBaseUrlBO=http://sandbox.prestashop.com:8080/admin1234
+    -e JAVA_OPTS="-DusersCount=$USER_COUNT
+                  -DcustomersCount=$CUSTOMER_COUNT
+                  -DadminsCount=$ADMIN_COUNT
+                  -DrampDurationInSeconds=$RAMP_DURATION
+                  -DhttpBaseUrlFO=$SHOP_URL
+                  -DhttpBaseUrlBO=$ADMIN_URL
                   -DadminUser=admin@prestashop.com
-                  -DadminPassword=admin" \
-    --add-host=sandbox.prestashop.com:192.168.0.4 \
-    prestashop/performance-gatling \
-    -s LoadSimulation
+                  -DadminPassword=prestashop" \
+    denvazh/gatling:3.0.3 \
+    -s LoadSimulation \
+    2>&1 | tee $dir/results/gatling.log
+
+# following can be used as option above to properly redirect local host
+#--add-host=sandbox.prestashop.com:192.168.10.68 \
+
+export END=$(date +"%Y-%m-%d %T")
+
+# PROCESS RESULTS
+
+docker run -it --rm \
+    -v "$dir":/app \
+    -e SIMULATION_NAME \
+    -e SHOP_URL \
+    -e USER_COUNT \
+    -e CUSTOMER_COUNT \
+    -e ADMIN_COUNT \
+    -e RAMP_DURATION \
+    -e START \
+    -e END \
+    php:7.4-cli php /app/process.php
 
