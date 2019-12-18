@@ -6,7 +6,10 @@ cd shop
 
 ## 1/ Generate shop data
 
-Here we use the shop-creator tool to generate fixture data
+Here we use the shop-creator tool to generate fixture data. 
+These data will be used during Prestashop installation process to pre-populate shop.
+
+Fixture sizes are located in `shop-creator-config.yml`. Feel free to edit this one to get your own fixtures set !
 
 ```
 git clone git@github.com:PrestaShop/prestashop-shop-creator.git
@@ -17,9 +20,11 @@ rm -rf generated_data/*
 php app/console.php
 ```
 
+This last line generates data into the directory `generated_data`
+
 ## 2/ Generate prestashop performance image
 
-Copy generated fixture data into the shop image
+Copy generated fixture data into the shop image. Build docker image with it.
 
 ```
 cd ..
@@ -31,7 +36,7 @@ docker build -t prestashop/prestashop-performance -f prestashop-performance/Dock
 
 ## 3/ Run shop
 
-Run docker image with parameters
+Run docker image with parameters, it will install fixtures and expose shop.
 
 ```
 docker run \
@@ -48,3 +53,9 @@ docker run \
     -p 8080:80 \
     prestashop/prestashop-performance
 ```
+
+This will 
+* run the prestashop image
+* install shop
+* install fixtures from `FIXTURE_FOLDER`
+* locally expose the shop on port 8080
