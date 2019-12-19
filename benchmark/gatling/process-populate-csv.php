@@ -9,6 +9,7 @@ if (!$fileExists) {
         'simulation-name',
         'date',
         'orderPerHour',
+        'pageViewPerHour',
     ];
     foreach (array_keys($resultData['result']) as $categoryName) {
         $csvInfos[] = $categoryName . '-responseTime95th';
@@ -21,6 +22,7 @@ $csvInfos = [
     $simulationName,
     $resultData['start'],
     $resultData['orderPerHour'],
+    $resultData['pageViewPerHour'],
 ];
 foreach (array_keys($resultData['result']) as $categoryName) {
     $csvInfos[] = $resultData['result'][$categoryName]['responseTime95th'];

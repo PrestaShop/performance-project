@@ -1,5 +1,11 @@
 <?php
 
+/** pageview count on one scenario of visitor browsing */
+const PAGEVIEWS_CRAWL = 15;
+
+/** pageview count on one scenario of order placing */
+const PAGEVIEWS_CART = 8;
+
 // RENAME GATLING RESULT DIRECTORY
 
 echo "Renaming result directory\n";
@@ -10,16 +16,20 @@ include('process-rename-directory.php');
 
 echo "Processing result\n";
 
+$customerCount = getenv('CUSTOMER_COUNT');
+$userCount = getenv('USER_COUNT');
+$rampDuration = getenv('RAMP_DURATION');
 $resultData = [
     'start'           => getenv('START'),
     'end'             => getenv('END'),
-    'USER_COUNT'      => getenv('USER_COUNT'),
-    'CUSTOMER_COUNT'  => getenv('CUSTOMER_COUNT'),
+    'USER_COUNT'      => $userCount,
+    'CUSTOMER_COUNT'  => $customerCount,
     'ADMIN_COUNT'     => getenv('ADMIN_COUNT'),
-    'RAMP_DURATION'   => getenv('RAMP_DURATION'),
+    'RAMP_DURATION'   => $rampDuration,
     'simulation name' => $simulationName,
-    'conversionRate'  => round(getenv('CUSTOMER_COUNT') / (getenv('USER_COUNT') + getenv('CUSTOMER_COUNT')), 1),
-    'orderPerHour'    => round(3600 * getenv('CUSTOMER_COUNT') / getenv('RAMP_DURATION')),
+    'conversionRate'  => round($customerCount / ($userCount + $customerCount), 1),
+    'orderPerHour'    => round(3600 * $customerCount / $rampDuration),
+    'pageViewPerHour' => round(3600 * (PAGEVIEWS_CRAWL * $userCount + PAGEVIEWS_CART * $customerCount) / $rampDuration),
 ];
 
 $jsonContent = file_get_contents($dirNew . DIRECTORY_SEPARATOR . 'js' . DIRECTORY_SEPARATOR . 'stats.json');
