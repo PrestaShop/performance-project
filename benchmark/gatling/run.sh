@@ -1,6 +1,7 @@
 #!/bin/sh
 set -e
 
+
 # INIT
 
 if [ -z "$SIMULATION_NAME" ]
@@ -42,7 +43,7 @@ echo "RAMP_DURATION: $RAMP_DURATION"
 
 # RUN SIMULATION
 
-export START=$(date +"%Y-%m-%d %T")
+export START="$(date +"%Y-%m-%d %T")"
 
 docker run -it --rm \
     -v $dir/user-files:/opt/gatling/user-files \
@@ -63,7 +64,7 @@ docker run -it --rm \
 # following can be used as option above to properly redirect local host
 #--add-host=sandbox.prestashop.com:192.168.10.68 \
 
-export END=$(date +"%Y-%m-%d %T")
+export END="$(date +"%Y-%m-%d %T")"
 
 # PROCESS RESULTS
 
