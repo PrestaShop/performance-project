@@ -1,4 +1,4 @@
-FROM prestashop/prestashop:1.7
+FROM prestaclaude/prestashop:1.7.6.3
 
 COPY pre-install-scripts/* /tmp/pre-install-scripts/
 COPY post-install-scripts/* /tmp/post-install-scripts/
