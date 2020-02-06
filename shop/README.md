@@ -28,9 +28,6 @@ Copy generated fixture data into the shop image. Build docker image with it.
 
 ```
 cd ..
-rm -rf prestashop-performance/fixtures/*
-mkdir -p prestashop-performance/fixtures
-cp -R prestashop-shop-creator/generated_data/* prestashop-performance/fixtures/
 docker build -t prestashop/prestashop-performance -f prestashop-performance/Dockerfile prestashop-performance
 ```
 
