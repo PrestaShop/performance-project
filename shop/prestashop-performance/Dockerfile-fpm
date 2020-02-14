@@ -11,3 +11,4 @@ RUN sed -i 's/dynamic/static/g' /usr/local/etc/php-fpm.d/*
 RUN sed -i 's/^pm.start_servers\ =\ 2/pm.start_servers = 15/g' /usr/local/etc/php-fpm.d/*
 RUN sed -i 's/^pm.max_spare_servers\ =\ 3/pm.max_spare_servers = 0/g' /usr/local/etc/php-fpm.d/*
 RUN sed -i 's/^pm.min_spare_servers\ =\ 1/pm.min_spare_servers = 0/g' /usr/local/etc/php-fpm.d/*
+RUN sed -i 's/pm.max_children\ =\ 5/pm.max_children\ =\ 15/g' /usr/local/etc/php-fpm.d/*
