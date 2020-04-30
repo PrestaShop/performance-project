@@ -54,7 +54,7 @@ docker run -it --rm \
                   -DrampDurationInSeconds=$RAMP_DURATION
                   -DhttpBaseUrlFO=$SHOP_URL
                   -DhttpBaseUrlBO=$ADMIN_URL
-                  -DadminUser=admin@prestashop.com
+                  -DadminUser=demo@prestashop.com
                   -DadminPassword=prestashop" \
     denvazh/gatling:3.0.3 \
     -s LoadSimulation \
