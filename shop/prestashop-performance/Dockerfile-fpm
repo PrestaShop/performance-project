@@ -1,4 +1,16 @@
-FROM prestaclaude/prestashop:1.7.6.3-fpm
+FROM prestashop/base:7.3-fpm
+LABEL maintainer="devops team <devops@prestashop.com>"
+
+ENV PS_VERSION 1.7.7.0
+
+# Get PrestaShop
+ADD https://www.prestashop.com/download/old/prestashop_1.7.6.3.zip /tmp/prestashop.zip
+
+# Extract
+RUN mkdir -p /tmp/data-ps \
+        && unzip -q /tmp/prestashop.zip -d /tmp/data-ps/ \
+        && bash /tmp/ps-extractor.sh /tmp/data-ps \
+        && rm /tmp/prestashop.zip
 
 COPY pre-install-scripts/* /tmp/pre-install-scripts/
 COPY post-install-scripts/* /tmp/post-install-scripts/
@@ -6,9 +18,3 @@ COPY init-scripts/* /tmp/init-scripts/
 
 COPY --chown=www-data:www-data fixtures-10 /opt/fixtures-10
 COPY --chown=www-data:www-data fixtures-1000 /opt/fixtures-1000
-
-#RUN sed -i 's/dynamic/static/g' /usr/local/etc/php-fpm.d/*
-#RUN sed -i 's/^pm.start_servers\ =\ 2/pm.start_servers = 15/g' /usr/local/etc/php-fpm.d/*
-#RUN sed -i 's/^pm.max_spare_servers\ =\ 3/pm.max_spare_servers = 0/g' /usr/local/etc/php-fpm.d/*
-#RUN sed -i 's/^pm.min_spare_servers\ =\ 1/pm.min_spare_servers = 0/g' /usr/local/etc/php-fpm.d/*
-#RUN sed -i 's/pm.max_children\ =\ 5/pm.max_children\ =\ 15/g' /usr/local/etc/php-fpm.d/*
