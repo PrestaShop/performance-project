@@ -5,8 +5,8 @@ if [ `docker images|grep alpinejq |wc -l` -eq "0" ]
 then
 	docker build -t alpinejq -f Dockerfile.jq .
 fi
-# INIT
 
+# INIT
 if [ -z "$SIMULATION_NAME" ]
 then
   export SIMULATION_NAME=""
@@ -24,7 +24,7 @@ fi
 
 if [ -z "$ADMIN_COUNT" ]
 then
-  export ADMIN_COUNT=1
+  export ADMIN_COUNT=0
 fi
 
 if [ -z "$RAMP_DURATION" ]
