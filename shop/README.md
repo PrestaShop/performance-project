@@ -67,7 +67,7 @@ Which means you can update them as you wish, updating the php version, the Prest
 
 Same as previous task, you need a not to old version of docker running on your environment.
 
-You also need a mySQL servrer, already up and running and configured to accept the shop's connections (either a docker container or a standalone application).
+You also need a MySQL server, already up and running and configured to accept the shop's connections (either a docker container or a standalone application).
 
 ### 3.2/ Running the container
 
