@@ -1,4 +1,4 @@
-FROM prestashop/base:7.3-fpm
+FROM prestashop/base:7.2-fpm
 LABEL maintainer="devops team <devops@prestashop.com>"
 
 ENV PS_VERSION 1.7.7.0
