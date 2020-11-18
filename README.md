@@ -2,7 +2,7 @@
 
 This project aims to provide tools to benchmark Prestashop.
 
-Thos very same tools were developped and used during our own performance benchmark here at PrestaShop.
+Some tools were developed and used during our own performance benchmark here at PrestaShop.
 
 There are 2 main components you will find here:
 
