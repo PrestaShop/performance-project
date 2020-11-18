@@ -22,7 +22,7 @@ Current configuration parameters are:
 * **MAIN_SHOP_URL**: Pretty self explainatory, this should point to your testing shop URL, either being local (http://localhost:8080) or public (http://me.shop) or an IP (http://10.20.30.40).
 * **BASE_COUNT**: How many users are crawling your shop, at first step (more on this letter).
 * **CUSTOMER_COUNT**: How many customers are buying from your shop.
-* **RAMP_DURATION**: Indicates how long the benchmark will run, in seconds - which is a very important parameter, as 3000 CUSTOMERS to manage in 5 minutes is not the same as 5000 CUSTOMERS in 50 minutes
+* **RAMP_DURATION**: Indicates how long the benchmark will run, in seconds - which is a very important parameter, as 3000 CUSTOMERS to manage in 5 minutes is not the same as 3000 CUSTOMERS in 50 minutes
 * **NB_STEPS**: Number of times this script will run.
 * **STEP_COUNT**: The script allowing to loop, STEP_COUNT is how much the CUSTOMER_COUNT is increased. For example, at the next step, if CUSTOMER_COUNT was at 30 and STEP_COUNT was at 5, then, at the next step, CUSTOMER_COUNT will be at 35. Hence, at _each_ STEP, the CUSTOMER_COUNT is increased by STEP_COUNT.
 * **START**: The number of STEPS since the script has been launched, in order to be looped over.
