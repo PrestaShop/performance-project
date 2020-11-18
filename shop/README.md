@@ -65,7 +65,7 @@ Which means you can update them as you wish, updating the php version, the Prest
 
 ### 3.1/ Prerequisites
 
-Same as previous task, you need a not to old version of docker running on your environment.
+Same as previous task, you need a not too old version of docker running on your environment.
 
 You also need a MySQL server, already up and running and configured to accept the shop's connections (either a docker container or a standalone application).
 
