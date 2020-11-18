@@ -46,7 +46,7 @@ This directory contains
 * `result.json` contains relevant data such as per-category response time, failed requests.
 
 But sometimes, you just want some fewer data, and we've extracted those we found useful in the result.csv file.
-So, each time you run the `batch.sh` file, the `results/results.csv` is updated with compiled data from the simulation.
+So, each time you run the `batch.sh` file, the `results/newresults.csv` is updated with compiled data from the simulation.
 
 ## Run only Gatling locally
 
