@@ -4,7 +4,7 @@ LABEL maintainer="devops team <devops@prestashop.com>"
 ENV PS_VERSION 1.7.7.0
 
 # Get PrestaShop
-ADD https://www.prestashop.com/download/old/prestashop_1.7.6.3.zip /tmp/prestashop.zip
+ADD https://www.prestashop.com/download/old/prestashop_1.7.6.9.zip /tmp/prestashop.zip
 
 # Extract
 RUN mkdir -p /tmp/data-ps \
