@@ -1,8 +1,12 @@
 #!/bin/sh
 set -e
 
-# INIT
+if [ `docker images|grep alpinejq |wc -l` -eq "0" ]
+then
+	docker build -t alpinejq -f Dockerfile.jq .
+fi
 
+# INIT
 if [ -z "$SIMULATION_NAME" ]
 then
   export SIMULATION_NAME=""
@@ -20,7 +24,7 @@ fi
 
 if [ -z "$ADMIN_COUNT" ]
 then
-  export ADMIN_COUNT=1
+  export ADMIN_COUNT=0
 fi
 
 if [ -z "$RAMP_DURATION" ]
@@ -42,7 +46,7 @@ echo "RAMP_DURATION: $RAMP_DURATION"
 
 # RUN SIMULATION
 
-export START=$(date +"%Y-%m-%d %T")
+export START="$(date +"%Y-%m-%d %T")"
 
 docker run -it --rm \
     -v $dir/user-files:/opt/gatling/user-files \
@@ -62,20 +66,3 @@ docker run -it --rm \
 
 # following can be used as option above to properly redirect local host
 #--add-host=sandbox.prestashop.com:192.168.10.68 \
-
-export END=$(date +"%Y-%m-%d %T")
-
-# PROCESS RESULTS
-
-docker run -it --rm \
-    -v "$dir":/app \
-    -e SIMULATION_NAME \
-    -e SHOP_URL \
-    -e USER_COUNT \
-    -e CUSTOMER_COUNT \
-    -e ADMIN_COUNT \
-    -e RAMP_DURATION \
-    -e START \
-    -e END \
-    php:7.4-cli php /app/process.php
-

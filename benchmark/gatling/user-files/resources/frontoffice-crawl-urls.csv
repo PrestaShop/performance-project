@@ -1,11 +1,11 @@
 category,name,location,pauseAfter
-FO index,index,/,3
-product,product #1,/index.php?id_product=1&controller=product&id_lang=1,1
-product,product #2,/index.php?id_product=2&controller=product&id_lang=1,3
-product,product #3,/index.php?id_product=3&controller=product&id_lang=1,5
-product,product #4,/index.php?id_product=4&controller=product&id_lang=1,1
-product,product #5,/index.php?id_product=5&controller=product&id_lang=1,1
-product,product #6,/index.php?id_product=6&controller=product&id_lang=1,0
-product,product #7,/index.php?id_product=7&controller=product&id_lang=1,1
-product,product #8,/index.php?id_product=8&controller=product&id_lang=1,2
-product,product #9,/index.php?id_product=9&controller=product&id_lang=1,3
+FO index,index,/index.php,3
+product,product #1,/index.php?id_product=1&rewrite=at-saepe-eveniet-similique-itaque-qui-dolor-illum&controller=product,2
+product,product #2,/index.php?id_product=2&rewrite=rerum-numquam-quia-expedita-ut&controller=product,2
+product,product #3,/index.php?id_product=3&rewrite=nihil-nihil-ea-mollitia-ut-laborum-tenetur-deserunt&controller=product,2
+product,product #4,/index.php?id_product=4&rewrite=ipsam-nihil-et-earum-repellat-quia&controller=product,2
+product,product #5,/index.php?id_product=5&rewrite=et-voluptates-beatae-eos-adipisci-ut-ea-consequatur&controller=product,2
+product,product #6,/index.php?id_product=6&rewrite=autem-quaerat-ut-quas-aut&controller=product,2
+product,product #7,/index.php?id_product=7&rewrite=dolore-odit-sint-deleniti-cumque&controller=product,2
+product,product #8,/index.php?id_product=8&rewrite=ratione-animi-aspernatur-et-facere-et-suscipit&controller=product,2
+product,product #9,/index.php?id_product=9&rewrite=tempora-omnis-voluptates-quis-magnam-est-odio-amet&controller=product,2
